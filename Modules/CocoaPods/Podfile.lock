@@ -1,0 +1,146 @@
+PODS:
+  - Alamofire (4.6.0)
+  - CryptoSwift (0.8.0)
+  - Dispatch (2.0.4)
+  - GzipSwift (4.0.4)
+  - ModernDesign (1.1.0):
+    - ModernDesign/Extensions (= 1.1.0)
+  - ModernDesign/Extensions (1.1.0):
+    - ModernDesignExtensions (= 1.1.0)
+  - ModernDesignExtensions (1.1.0):
+    - SwiftCommons/Lang (~> 1.1.0)
+  - NetworkingApi (1.1.2):
+    - NetworkingApi/Converters (= 1.1.2)
+    - NetworkingApi/Helpers (= 1.1.2)
+    - NetworkingApi/Http (= 1.1.2)
+    - NetworkingApi/ObjC (= 1.1.2)
+    - NetworkingApi/Rest (= 1.1.2)
+  - NetworkingApi/Converters (1.1.2):
+    - NetworkingApiConverters (= 1.1.2)
+  - NetworkingApi/Helpers (1.1.2):
+    - NetworkingApiHelpers (= 1.1.2)
+  - NetworkingApi/Http (1.1.2):
+    - NetworkingApiHttp (= 1.1.2)
+  - NetworkingApi/ObjC (1.1.2):
+    - NetworkingApiObjC (= 1.1.2)
+  - NetworkingApi/Rest (1.1.2):
+    - NetworkingApiRest (= 1.1.2)
+  - NetworkingApiConverters (1.1.2):
+    - NetworkingApiRest (= 1.1.2)
+    - SwiftCommons/Data (~> 1.1.0)
+  - NetworkingApiHelpers (1.1.2):
+    - Alamofire (~> 4.6.0)
+    - NetworkingApiHttp (= 1.1.2)
+  - NetworkingApiHttp (1.1.2):
+    - SwiftCommons/Diagnostics (~> 1.1.0)
+  - NetworkingApiObjC (1.1.2):
+    - Alamofire (~> 4.6.0)
+  - NetworkingApiRest (1.1.2):
+    - Alamofire (~> 4.6.0)
+    - NetworkingApiHelpers (= 1.1.2)
+    - NetworkingApiObjC (= 1.1.2)
+    - SwiftCommons/Data (~> 1.1.0)
+    - SwiftyJSON (~> 4.0.0)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - SwiftCommons (1.1.0):
+    - SwiftCommons/Abstractions (= 1.1.0)
+    - SwiftCommons/Concurrent (= 1.1.0)
+    - SwiftCommons/Data (= 1.1.0)
+    - SwiftCommons/Diagnostics (= 1.1.0)
+    - SwiftCommons/Extensions (= 1.1.0)
+    - SwiftCommons/Lang (= 1.1.0)
+    - SwiftCommons/Logging (= 1.1.0)
+    - SwiftCommons/ObjC (= 1.1.0)
+  - SwiftCommons/Abstractions (1.1.0):
+    - SwiftCommonsAbstractions (= 1.1.0)
+  - SwiftCommons/Concurrent (1.1.0):
+    - SwiftCommonsConcurrent (= 1.1.0)
+  - SwiftCommons/Data (1.1.0):
+    - SwiftCommonsData (= 1.1.0)
+  - SwiftCommons/Diagnostics (1.1.0):
+    - SwiftCommonsDiagnostics (= 1.1.0)
+  - SwiftCommons/Extensions (1.1.0):
+    - SwiftCommonsExtensions (= 1.1.0)
+  - SwiftCommons/Lang (1.1.0):
+    - SwiftCommonsLang (= 1.1.0)
+  - SwiftCommons/Logging (1.1.0):
+    - SwiftCommonsLogging (= 1.1.0)
+  - SwiftCommons/ObjC (1.1.0):
+    - SwiftCommonsObjC (= 1.1.0)
+  - SwiftCommonsAbstractions (1.1.0)
+  - SwiftCommonsConcurrent (1.1.0):
+    - Dispatch (~> 2.0.4)
+    - SwiftCommonsObjC (= 1.1.0)
+  - SwiftCommonsData (1.1.0):
+    - CryptoSwift (~> 0.8.0)
+    - SwiftCommonsDiagnostics (= 1.1.0)
+  - SwiftCommonsDiagnostics (1.1.0):
+    - SwiftCommonsConcurrent (= 1.1.0)
+    - SwiftCommonsExtensions (= 1.1.0)
+  - SwiftCommonsExtensions (1.1.0):
+    - SwiftCommonsAbstractions (= 1.1.0)
+    - SwiftCommonsLogging (= 1.1.0)
+  - SwiftCommonsLang (1.1.0)
+  - SwiftCommonsLogging (1.1.0):
+    - SwiftCommonsConcurrent (= 1.1.0)
+    - SwiftCommonsLang (= 1.1.0)
+  - SwiftCommonsObjC (1.1.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - GzipSwift (~> 4.0.4)
+  - ModernDesign (from `https://github.com/roxiemobile/modern-design.ios.git`)
+  - NetworkingApi (from `https://github.com/roxiemobile/networking-api.ios.git`)
+  - R.swift (~> 4.0.0)
+  - SwiftCommons (from `https://github.com/roxiemobile/swift-commons.ios.git`)
+
+EXTERNAL SOURCES:
+  ModernDesign:
+    :git: https://github.com/roxiemobile/modern-design.ios.git
+  NetworkingApi:
+    :git: https://github.com/roxiemobile/networking-api.ios.git
+  SwiftCommons:
+    :git: https://github.com/roxiemobile/swift-commons.ios.git
+
+CHECKOUT OPTIONS:
+  ModernDesign:
+    :commit: 5f12b5115c422071b79b9161d37241bb838b1fc4
+    :git: https://github.com/roxiemobile/modern-design.ios.git
+  NetworkingApi:
+    :commit: ac35ef7c12115c11e7403d6a3f302ea21a069ffd
+    :git: https://github.com/roxiemobile/networking-api.ios.git
+  SwiftCommons:
+    :commit: 95b5d3c70089421c4053ff2e1e25ef49f5a020ce
+    :git: https://github.com/roxiemobile/swift-commons.ios.git
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  CryptoSwift: f81907430ebbe38b8404b4f6fb40f3c576a8755f
+  Dispatch: 7ed89f2845001c4161ad83f43988b584fae8fff4
+  GzipSwift: 1a5bc5f7827e09846b0635b5079f1224bc3b1c3a
+  ModernDesign: bdf7a87f07f22db488292be596a6dbf3f639eece
+  ModernDesignExtensions: 09d55fd1ed45a1381ecbd44e43f9efbe367d3dcb
+  NetworkingApi: 8a29383a34751bd005505fef48446fe3530208fa
+  NetworkingApiConverters: d7219fdc3b83277f008afbec0aec1873181abfda
+  NetworkingApiHelpers: 6c264b1ac69d71c0f7e36d20e0a9782268da70f5
+  NetworkingApiHttp: 0f14e04064dc6a7220020b0b48482a844cf45293
+  NetworkingApiObjC: 193fca4067ba981c48adf8c07ad32020f968c95f
+  NetworkingApiRest: 0fcf239f39ac5591ea19cff04f5cc86b9ee6ee9c
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  SwiftCommons: 1af54558b9d8cef30e0aa964ec7e3f05987364b6
+  SwiftCommonsAbstractions: 3eff30086dd8dcaf9768fc7487f72496b86d2187
+  SwiftCommonsConcurrent: 0d430aed762d4c7741450cf2a5ff9b4b45f97db7
+  SwiftCommonsData: 65ce4ea6a8bf254c74b6bd3f51fdda573f2905fc
+  SwiftCommonsDiagnostics: 0f718c7720828d2ce66c2dc835b6948b6a64db8f
+  SwiftCommonsExtensions: 558bdf4fc00ea7b3a48c33b102642f2e6f21b1b3
+  SwiftCommonsLang: e1fe86c0a4c73596aface6af1b88fbf188171a0d
+  SwiftCommonsLogging: 82ef131b56273702d2b4083931a829db0c3d476b
+  SwiftCommonsObjC: 9ce27218606b397036a873e196f9bb489aa515dd
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: ec835ee9f5b3cb13e1a7b01fc3d6b334c6d261da
+
+COCOAPODS: 1.4.0

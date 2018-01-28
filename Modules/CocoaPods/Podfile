@@ -1,0 +1,79 @@
+#source 'https://github.com/roxiemobile/static-cocoa-frameworks.ios.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+use_frameworks!
+
+workspace '../Irby/Irby.xcworkspace'
+
+
+def inject_shared_dependencies_1
+  pod 'GzipSwift', '~> 4.0.4'
+  pod 'SwiftCommons', :git => 'https://github.com/roxiemobile/swift-commons.ios.git'
+end
+
+def inject_shared_dependencies_2
+  pod 'NetworkingApi', :git => 'https://github.com/roxiemobile/networking-api.ios.git'
+end
+
+def pod_with(name, *args)
+  name = name.split('/').tap { |arr| arr[0] = "#{arr[0]}-SCF" }.reject(&:empty?).join('/')
+  pod(name, *args)
+end
+
+
+target 'Irby.Core.Entities' do
+  project '../Irby/Sources/Core.Entities/Irby.Core.Entities.xcodeproj'
+
+  # Dependencies
+  pod 'SwiftCommons', :git => 'https://github.com/roxiemobile/swift-commons.ios.git'
+end
+
+target 'Irby.Core.Net' do
+  project '../Irby/Sources/Core.Net/Irby.Core.Net.xcodeproj'
+
+  # Dependencies
+  inject_shared_dependencies_1
+  inject_shared_dependencies_2
+end
+
+abstract_target 'Irby.Translation' do
+  project '../Irby/Sources/Application/Irby.xcodeproj'
+
+  # Dependencies
+  inject_shared_dependencies_1
+  inject_shared_dependencies_2
+
+  pod 'ModernDesign', :git => 'https://github.com/roxiemobile/modern-design.ios.git'
+  pod 'R.swift', '~> 4.0.0'
+
+  # Targets
+  target 'Irby'
+end
+
+
+pre_install do |installer|
+  puts 'Removing redundant dependencies'
+  LibrariesAttr = Pod::Specification::DSL.attributes[:libraries]
+
+  def remove_libraries(spec, platform, *libs)
+    return unless spec.is_a? Pod::Specification
+    return unless libs.is_a?(Array) && !libs.empty?
+
+    platform = platform.to_sym
+    cons = spec.consumer(platform)
+
+    spec.libraries = (cons.raw_value_for_attribute(cons.spec, LibrariesAttr) || []).reject do |lib|
+      libs.include? lib
+    end
+
+    (spec.subspecs || []).each do |subspec|
+      remove_libraries(subspec, platform, *libs)
+    end
+  end
+
+  (installer.analysis_result.specifications || []).each do |spec|
+    spec = spec.parent until spec.parent.nil?
+    remove_libraries spec, :ios, 'sqlite3', 'z'
+  end
+end
