@@ -1,0 +1,153 @@
+/* No comment provided by engineer. */
+"ActionCancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"ActionChoose" = "Select the photo";
+
+/* No comment provided by engineer. */
+"ActionClose" = "Close";
+
+/* No comment provided by engineer. */
+"ActionDelete" = "Delete photo";
+
+/* No comment provided by engineer. */
+"ActionMake" = "Take a photo";
+
+/* No comment provided by engineer. */
+"AreYouSureWantToExitFormat" = "Do you want to log out
+%@ ?";
+
+/* No comment provided by engineer. */
+"AreYouSureWantToRemoveRideParameters" = "Are you sure you want to reset the data you have entered?";
+
+/* No comment provided by engineer. */
+"AreYouWantToDeleteRide" = "Do you want to delete the ride?";
+
+/* No comment provided by engineer. */
+"CallPhoneNumber" = "Make a call?";
+
+/* No comment provided by engineer. */
+"CameraIsUnavailable" = "Camera unavailable";
+
+/* No comment provided by engineer. */
+"CannotAccessServer" = "Network problems. Please make sure that the mobile network is available and try again.";
+
+/* No comment provided by engineer. */
+"CouldNotCall" = "Cannot make a call";
+
+/* No comment provided by engineer. */
+"Excellent" = "Excellent";
+
+/* No comment provided by engineer. */
+"Good" = "Good";
+
+/* No comment provided by engineer. */
+"Http401_Unauthorized" = "Authorization is required.";
+
+/* No comment provided by engineer. */
+"Http403_Forbidden" = "You do not have permission to access this resource.";
+
+/* No comment provided by engineer. */
+"Http404_NotFound" = "Sorry, an error occurred.";
+
+/* No comment provided by engineer. */
+"Http406_NotAcceptable" = "Sorry, an error occurred, and we are working to fix it.";
+
+/* No comment provided by engineer. */
+"Http422_UnprocessableEntity" = "Sorry, an error occurred, and we are working to fix it.";
+
+/* No comment provided by engineer. */
+"Http500_InternalServerError" = "Sorry, an error occurred, and we are working to fix it.";
+
+/* No comment provided by engineer. */
+"Http502_BadGateway" = "Sorry, an error occurred, and we are working to fix it.";
+
+/* No comment provided by engineer. */
+"Http503_ServiceUnavailable" = "The system is being updated.";
+
+/* No comment provided by engineer. */
+"InvalidResponse" = "Data error.";
+
+/* No comment provided by engineer. */
+"LeaveReviewNotAvailable" = "Adding a review is currently unavailable.";
+
+/* No comment provided by engineer. */
+"LoadingError" = "Download error.";
+
+/* No comment provided by engineer. */
+"LocationError" = "Sorry, an error occurred while locating the point.";
+
+/* No comment provided by engineer. */
+"LocationErrorDenied" = "It looks like your location services are turned off. Please enable location services, so we can determine your location.";
+
+/* No comment provided by engineer. */
+"MailServiceNotAvailable" = "Email service is unavailble";
+
+/* No comment provided by engineer. */
+"PromoErrorDefault" = "Failed to activate the promo code.";
+
+/* No comment provided by engineer. */
+"ReportProblem" = "Report a problem";
+
+/* No comment provided by engineer. */
+"RideOrderError" = "Please select a different location to create the route.";
+
+/* No comment provided by engineer. */
+"SMSServiceNotAvailable" = "SMS service is unavailable";
+
+/* No comment provided by engineer. */
+"TextFieldIsEmpty" = "The field «%@» should be filled in";
+
+/* No comment provided by engineer. */
+"TextFieldIsNotValid" = "Wrong data in the field «%@»";
+
+/* No comment provided by engineer. */
+"TitleError" = "Error";
+
+/* No comment provided by engineer. */
+"TitleExit" = "Exit";
+
+/* No comment provided by engineer. */
+"TitleHttp401_Unauthorized" = "Unavailable";
+
+/* No comment provided by engineer. */
+"TitleHttp403_Forbidden" = "Unavailable";
+
+/* No comment provided by engineer. */
+"TitleHttp404_NotFound" = "Error";
+
+/* No comment provided by engineer. */
+"TitleHttp406_NotAcceptable" = "Error";
+
+/* No comment provided by engineer. */
+"TitleHttp422_UnprocessableEntity" = "Error";
+
+/* No comment provided by engineer. */
+"TitleHttp500_InternalServerError" = "Error";
+
+/* No comment provided by engineer. */
+"TitleHttp502_BadGateway" = "Error";
+
+/* No comment provided by engineer. */
+"TitleHttp503_ServiceUnavailable" = "Service works are being performed";
+
+/* No comment provided by engineer. */
+"TitleInformation" = "Information";
+
+/* No comment provided by engineer. */
+"TitleLeaveFeedback" = "Rate the application";
+
+/* No comment provided by engineer. */
+"TitleRemoving" = "Deleting";
+
+/* No comment provided by engineer. */
+"TitleWorkInProgress" = "Under construction";
+
+/* No comment provided by engineer. */
+"UnexpectedHttpError" = "Sorry, an error occurred, and we are working to fix it.";
+
+/* No comment provided by engineer. */
+"WorkInProgress" = "The function will be available in future application versions";
+
+/* No comment provided by engineer. */
+"SelectDestinationPoint" = "To order a taxi, select a destination point";

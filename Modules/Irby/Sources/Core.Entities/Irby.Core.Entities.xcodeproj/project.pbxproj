@@ -7,107 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B401C8FA9B8EBA421C7B5DDD /* Pods_Irby_Core_Entities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818C9F500FD74B07001BC9B2 /* Pods_Irby_Core_Entities.framework */; };
+		2470ECC6201FE77000C68143 /* JsonKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470ECC2201FE77000C68143 /* JsonKeys.swift */; };
+		2470ECC7201FE77000C68143 /* TextElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470ECC4201FE77000C68143 /* TextElementModel.swift */; };
+		F36ECD5927ECAAD12C8F63BF /* Pods_Irby_Core_Entities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA8AFA6B415963915161C5B /* Pods_Irby_Core_Entities.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2470EC2F201FE68500C68143 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		248A891B201E4326005C0C2B /* Irby.Core.Entities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Irby.Core.Entities.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6085D0997AE517CD9DF4C94D /* Pods-Irby.Core.Entities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Irby.Core.Entities.release.xcconfig"; path = "../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Entities/Pods-Irby.Core.Entities.release.xcconfig"; sourceTree = "<group>"; };
-		6C4B719A0441CB748B7450F5 /* Pods-Irby.Core.Entities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Irby.Core.Entities.debug.xcconfig"; path = "../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Entities/Pods-Irby.Core.Entities.debug.xcconfig"; sourceTree = "<group>"; };
-		818C9F500FD74B07001BC9B2 /* Pods_Irby_Core_Entities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Irby_Core_Entities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2470EC31201FE68500C68143 /* libIrbyCoreEntities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIrbyCoreEntities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2470ECC2201FE77000C68143 /* JsonKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonKeys.swift; sourceTree = "<group>"; };
+		2470ECC4201FE77000C68143 /* TextElementModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextElementModel.swift; sourceTree = "<group>"; };
+		7BA8AFA6B415963915161C5B /* Pods_Irby_Core_Entities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Irby_Core_Entities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B54D320897170BF8F599DD /* Pods-Irby.Core.Entities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Irby.Core.Entities.release.xcconfig"; path = "../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Entities/Pods-Irby.Core.Entities.release.xcconfig"; sourceTree = "<group>"; };
+		CFAB129B61E7B57601250506 /* Pods-Irby.Core.Entities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Irby.Core.Entities.debug.xcconfig"; path = "../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Entities/Pods-Irby.Core.Entities.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		248A8918201E4326005C0C2B /* Frameworks */ = {
+		2470EC2E201FE68500C68143 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B401C8FA9B8EBA421C7B5DDD /* Pods_Irby_Core_Entities.framework in Frameworks */,
+				F36ECD5927ECAAD12C8F63BF /* Pods_Irby_Core_Entities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		248A8912201E4326005C0C2B = {
+		2470EC28201FE68500C68143 = {
 			isa = PBXGroup;
 			children = (
-				248A8936201E4602005C0C2B /* Dependancies */,
-				248A8933201E4602005C0C2B /* Resources */,
-				248A8934201E4602005C0C2B /* Sources */,
-				248A891C201E4326005C0C2B /* Products */,
-				3BC533AD119AC41F10406213 /* Pods */,
-				AD91DBD8418CD78A69F9E509 /* Frameworks */,
+				2470ECC5201FE77000C68143 /* Dependancies */,
+				2470ECC0201FE77000C68143 /* Resources */,
+				2470ECC1201FE77000C68143 /* Sources */,
+				2470EC32201FE68500C68143 /* Products */,
+				CDFE7A3486DB7F09F2FC058A /* Pods */,
+				720B39CC4BFCE3DA79F179AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		248A891C201E4326005C0C2B /* Products */ = {
+		2470EC32201FE68500C68143 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				248A891B201E4326005C0C2B /* Irby.Core.Entities.app */,
+				2470EC31201FE68500C68143 /* libIrbyCoreEntities.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		248A8933201E4602005C0C2B /* Resources */ = {
+		2470ECC0201FE77000C68143 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		248A8934201E4602005C0C2B /* Sources */ = {
+		2470ECC1201FE77000C68143 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				248A8935201E4602005C0C2B /* Models */,
+				2470ECC2201FE77000C68143 /* JsonKeys.swift */,
+				2470ECC3201FE77000C68143 /* Models */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		248A8935201E4602005C0C2B /* Models */ = {
+		2470ECC3201FE77000C68143 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2470ECC4201FE77000C68143 /* TextElementModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		248A8936201E4602005C0C2B /* Dependancies */ = {
+		2470ECC5201FE77000C68143 /* Dependancies */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Dependancies;
 			sourceTree = "<group>";
 		};
-		3BC533AD119AC41F10406213 /* Pods */ = {
+		720B39CC4BFCE3DA79F179AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6C4B719A0441CB748B7450F5 /* Pods-Irby.Core.Entities.debug.xcconfig */,
-				6085D0997AE517CD9DF4C94D /* Pods-Irby.Core.Entities.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AD91DBD8418CD78A69F9E509 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				818C9F500FD74B07001BC9B2 /* Pods_Irby_Core_Entities.framework */,
+				7BA8AFA6B415963915161C5B /* Pods_Irby_Core_Entities.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDFE7A3486DB7F09F2FC058A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB129B61E7B57601250506 /* Pods-Irby.Core.Entities.debug.xcconfig */,
+				85B54D320897170BF8F599DD /* Pods-Irby.Core.Entities.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		248A891A201E4326005C0C2B /* Irby.Core.Entities */ = {
+		2470EC30201FE68500C68143 /* Irby.Core.Entities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 248A892D201E4326005C0C2B /* Build configuration list for PBXNativeTarget "Irby.Core.Entities" */;
+			buildConfigurationList = 2470EC3A201FE68500C68143 /* Build configuration list for PBXNativeTarget "Irby.Core.Entities" */;
 			buildPhases = (
-				1A8CEC49C0ABFC887EB620D0 /* [CP] Check Pods Manifest.lock */,
-				248A8917201E4326005C0C2B /* Sources */,
-				248A8918201E4326005C0C2B /* Frameworks */,
-				248A8919201E4326005C0C2B /* Resources */,
-				7CE0AA2DDEB598177B71B335 /* [CP] Embed Pods Frameworks */,
-				051A43E5AE1713D8BB689E4B /* [CP] Copy Pods Resources */,
+				79045FB12E6A185AC3FAD283 /* [CP] Check Pods Manifest.lock */,
+				2470EC2D201FE68500C68143 /* Sources */,
+				2470EC2E201FE68500C68143 /* Frameworks */,
+				2470EC2F201FE68500C68143 /* CopyFiles */,
+				2A8059382FFDBA2CBCCDD5D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -115,55 +132,43 @@
 			);
 			name = Irby.Core.Entities;
 			productName = Irby.Core.Entities;
-			productReference = 248A891B201E4326005C0C2B /* Irby.Core.Entities.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 2470EC31201FE68500C68143 /* libIrbyCoreEntities.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		248A8913201E4326005C0C2B /* Project object */ = {
+		2470EC29201FE68500C68143 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Nik;
 				TargetAttributes = {
-					248A891A201E4326005C0C2B = {
+					2470EC30201FE68500C68143 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 248A8916201E4326005C0C2B /* Build configuration list for PBXProject "Irby.Core.Entities" */;
+			buildConfigurationList = 2470EC2C201FE68500C68143 /* Build configuration list for PBXProject "Irby.Core.Entities" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 248A8912201E4326005C0C2B;
-			productRefGroup = 248A891C201E4326005C0C2B /* Products */;
+			mainGroup = 2470EC28201FE68500C68143;
+			productRefGroup = 2470EC32201FE68500C68143 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				248A891A201E4326005C0C2B /* Irby.Core.Entities */,
+				2470EC30201FE68500C68143 /* Irby.Core.Entities */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		248A8919201E4326005C0C2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXShellScriptBuildPhase section */
-		051A43E5AE1713D8BB689E4B /* [CP] Copy Pods Resources */ = {
+		2A8059382FFDBA2CBCCDD5D1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,7 +183,7 @@
 			shellScript = "\"${SRCROOT}/../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Entities/Pods-Irby.Core.Entities-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1A8CEC49C0ABFC887EB620D0 /* [CP] Check Pods Manifest.lock */ = {
+		79045FB12E6A185AC3FAD283 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,40 +201,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7CE0AA2DDEB598177B71B335 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Entities/Pods-Irby.Core.Entities-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Dispatch/DispatchFramework.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DispatchFramework.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Entities/Pods-Irby.Core.Entities-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		248A8917201E4326005C0C2B /* Sources */ = {
+		2470EC2D201FE68500C68143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2470ECC6201FE77000C68143 /* JsonKeys.swift in Sources */,
+				2470ECC7201FE77000C68143 /* TextElementModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		248A892B201E4326005C0C2B /* Debug */ = {
+		2470EC38201FE68500C68143 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,6 +247,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CUSTOM_PRODUCT_NAME = IrbyCoreEntities;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -277,16 +265,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		248A892C201E4326005C0C2B /* Release */ = {
+		2470EC39201FE68500C68143 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,6 +303,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CUSTOM_PRODUCT_NAME = IrbyCoreEntities;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -328,41 +315,38 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		248A892E201E4326005C0C2B /* Debug */ = {
+		2470EC3B201FE68500C68143 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C4B719A0441CB748B7450F5 /* Pods-Irby.Core.Entities.debug.xcconfig */;
+			baseConfigurationReference = CFAB129B61E7B57601250506 /* Pods-Irby.Core.Entities.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CUSTOM_PRODUCT_NAME = IrbyCoreEntities;
 				DEVELOPMENT_TEAM = 89TQ2GF24K;
-				INFOPLIST_FILE = Irby.Core.Entities/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Nik.Irby-Core-Entities";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(CUSTOM_PRODUCT_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		248A892F201E4326005C0C2B /* Release */ = {
+		2470EC3C201FE68500C68143 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6085D0997AE517CD9DF4C94D /* Pods-Irby.Core.Entities.release.xcconfig */;
+			baseConfigurationReference = 85B54D320897170BF8F599DD /* Pods-Irby.Core.Entities.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CUSTOM_PRODUCT_NAME = IrbyCoreEntities;
 				DEVELOPMENT_TEAM = 89TQ2GF24K;
-				INFOPLIST_FILE = Irby.Core.Entities/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Nik.Irby-Core-Entities";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(CUSTOM_PRODUCT_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -371,25 +355,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		248A8916201E4326005C0C2B /* Build configuration list for PBXProject "Irby.Core.Entities" */ = {
+		2470EC2C201FE68500C68143 /* Build configuration list for PBXProject "Irby.Core.Entities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248A892B201E4326005C0C2B /* Debug */,
-				248A892C201E4326005C0C2B /* Release */,
+				2470EC38201FE68500C68143 /* Debug */,
+				2470EC39201FE68500C68143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		248A892D201E4326005C0C2B /* Build configuration list for PBXNativeTarget "Irby.Core.Entities" */ = {
+		2470EC3A201FE68500C68143 /* Build configuration list for PBXNativeTarget "Irby.Core.Entities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248A892E201E4326005C0C2B /* Debug */,
-				248A892F201E4326005C0C2B /* Release */,
+				2470EC3B201FE68500C68143 /* Debug */,
+				2470EC3C201FE68500C68143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 248A8913201E4326005C0C2B /* Project object */;
+	rootObject = 2470EC29201FE68500C68143 /* Project object */;
 }

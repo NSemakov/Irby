@@ -1,0 +1,188 @@
+/* ----------------------------------------------------------------------------
+Localization+UI.swift
+@author Nikita Semakov <SemakovNV@ekassir.com>
+@copyright  Copyright (c) 2017, eKassir Ltd. All rights reserved.
+@link       http://www.ekassir.com
+//---------------------------------------------------------------------------- */
+
+"label_dispatcher" = "Диспетчер";
+
+"label_payment" = "Оплата";
+
+"label_ridehistory_menu" = "История поездок";
+
+"label_favoriteaddresses_menu" = "Любимые адреса";
+
+"label_promo_menu" = "Промокоды";
+
+"label_settings_menu" = "Настройки";
+
+"label_leavefeedback_menu" = "Оставить отзыв";
+
+"button_register" = "Регистрация";
+
+"label_countryname_phonenumbercontroller" = "Россия";
+
+"textfield_placeholder_number_phonenumbercontroller" = "Ваш номер телефона";
+
+"button_skip" = "Пропустить";
+
+"button_continue" = "Продолжить";
+
+"label_smscode_otp" = "Код из SMS";
+
+"button_adddestinationpoint" = "Добавить адрес назначения";
+
+"button_save" = "Сохранить";
+
+"label_fastesttime" = "Как можно быстрее";
+
+"label_accuratetime" = "Указать точное время";
+
+"label_info_timechoicetablecontroller" = "Время указывается в часовом поясе места подачи";
+
+"label_profilephotohint" = "Водителю будет проще найти вас по фото";
+
+"label_name" = "Имя";
+
+"label_phone" = "Телефон";
+
+"label_email" = "Email";
+
+"label_bonusaccount" = "Бонусный счет";
+
+"label_promo_profilecontroller" = "Начислено по промокоду";
+
+"button_addcard" = "Добавить карту";
+
+"button_callanothertaxi" = "Вызвал другое такси";
+
+"label_whycancel_profilcontroller" = "Почему вы отменили поездку?";
+
+"button_chooseonmap" = "Выбрать на карте";
+
+"button_terminals" = "Аэропорты и вокзалы";
+
+"textfield_placeholder_inputaddress" = "Введите адрес";
+
+"label_chooseaddress" = "Выберите адрес";
+
+"button_addaddress" = "Добавить адрес";
+
+"label_addfavoriteaddress" = "Добавьте \nлюбимый адрес";
+
+"label_writetosupport" = "Написать в поддержку";
+
+"label_feedbackbadtitle" = "Поделитесь с нами, как бы вы хотели улучшить приложение. Мы обязательно учтём ваше пожелание в последующих версиях.";
+
+"label_feedbackexcellenttitle" = "Расскажите, что бы вы хотели в следующих версиях приложения. А ещё лучше – напишите об этом в AppStore.";
+
+"label_writetoappstore" = "Написать в AppStore";
+
+"label_sharewithfriends" = "Поделиться с друзьями";
+
+"label_feedbackgoodtitle" = "Если у вас возникли проблемы с приложением, обратитесь в службу поддержки. Вам помогут во всем разобраться.";
+
+"label_notify_settingscontroller" = "Оповещать о прибытии такси";
+
+"label_sms" = "SMS";
+
+"label_byphonecall_settingscontroller" = "Звонком на телефон";
+
+"label_bypush_settingscontroller" = "Push-уведомлением";
+
+"label_infopush_settingscontroller" = "Push-уведомления";
+
+"label_reportonemail" = "Отчет о поездке на email";
+
+"button_aboutapp" = "О приложении";
+
+"button_logout" = "Выйти из профиля";
+
+"label_rate" = "Оценка";
+
+"label_driver" = "Водитель";
+
+"label_total" = "Итого";
+
+"button_repeat" = "Повторить";
+
+"label_rideswillappear" = "Здесь появятся \nзавершенные поездки";
+
+"label_rideswillappearhint" = "Пока их нет. Но вы можете в любой момент заказать такси :)";
+
+"button_ordertaxi" = "Заказать такси";
+
+"label_presentPromo" = "Подарите другу 300 ₽ \nна первую поездку.";
+
+"label_sendcode" = "Отправьте код";
+
+"label_sendpromohint" = "Можно отправить 5 кодов";
+
+"button_sendcode" = "Отправить код";
+
+"button_send" = "Отправить";
+
+"label_havepromo" = "У вас есть промокод?";
+
+"label_entercode" = "Ввести код";
+
+"textfield_placeholder_promo" = "Промокод";
+
+"label_promopurpose" = "Их можно потратить на поездки";
+
+"label_needregister" = "Нужна регистрация";
+
+"label_registrationhint" = "Чтобы воспользоваться данной функцией, нужно зарегистрироваться по номеру телефона. Это займет меньше минуты.  ";
+
+"button_downloadnupdate" = "Скачать и обновить";
+
+"label_addfavoriteaddresshint" = "Добавьте рабочий или домашний адрес.\nЕго можно будет выбрать при заказе такси.";
+
+"label_whatdoyoulike" = "Что вам понравилось?";
+
+"button_clearauto" = "Чистый автомобиль ";
+
+"button_politedriver" = "Вежливый водитель";
+
+"button_comfortatmosphere" = "Комфортная атмосфера";
+
+"button_gooddriving" = "Хорошее вождение";
+
+"label_whatyoudontlike" = "Что вам не понравилось?";
+
+"button_dirtyauto" = "Грязный автомобиль";
+
+"button_impolitedriver" = "Невежливый водитель";
+
+"button_uncomfortableatmosphere" = "Некомфортная атмосфера";
+
+"button_dangerousdriving" = "Опасное вождение";
+
+"button_addcomment" = "Добавить комментарий";
+
+"label_countryname_latvia" = "Латвия";
+
+"label_countryname_russia" = "Россия";
+
+"label_cash_payment" = "Наличными";
+
+"button_report_a_bug" = "Сообщить об ошибке";
+
+"button_cancel_ride" = "Отменить поездку";
+
+"button_send" = "Отправить";
+
+"label_geocode_nothing_found" = "Ничего не найдено";
+
+"label_thank_you_for_feedback" = "Спасибо за отзыв";
+
+"button_additional_services" = "Доп. услуги";
+
+"label_pickuptime" = "Время подачи:";
+
+"label_paymentmethod" = "Оплата:";
+
+"label_pushpromoactions" = "Промо-акции";
+
+"label_pushnews" = "Новости";

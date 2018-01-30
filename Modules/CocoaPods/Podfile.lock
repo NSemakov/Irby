@@ -3,6 +3,8 @@ PODS:
   - CryptoSwift (0.8.0)
   - Dispatch (2.0.4)
   - GzipSwift (4.0.4)
+  - Kanna (4.0.0)
+  - MBProgressHUD (1.1.0)
   - ModernDesign (1.1.0):
     - ModernDesign/Extensions (= 1.1.0)
   - ModernDesign/Extensions (1.1.0):
@@ -91,12 +93,17 @@ PODS:
 
 DEPENDENCIES:
   - GzipSwift (~> 4.0.4)
+  - Kanna (from `https://github.com/tid-kijyun/Kanna.git`, branch `feature/v4.0.0`)
+  - MBProgressHUD (~> 1.1.0)
   - ModernDesign (from `https://github.com/roxiemobile/modern-design.ios.git`)
   - NetworkingApi (from `https://github.com/roxiemobile/networking-api.ios.git`)
   - R.swift (~> 4.0.0)
   - SwiftCommons (from `https://github.com/roxiemobile/swift-commons.ios.git`)
 
 EXTERNAL SOURCES:
+  Kanna:
+    :branch: feature/v4.0.0
+    :git: https://github.com/tid-kijyun/Kanna.git
   ModernDesign:
     :git: https://github.com/roxiemobile/modern-design.ios.git
   NetworkingApi:
@@ -105,6 +112,9 @@ EXTERNAL SOURCES:
     :git: https://github.com/roxiemobile/swift-commons.ios.git
 
 CHECKOUT OPTIONS:
+  Kanna:
+    :commit: 58e3513d20cd16fe8b9ff16b5a2b481fcd643499
+    :git: https://github.com/tid-kijyun/Kanna.git
   ModernDesign:
     :commit: 5f12b5115c422071b79b9161d37241bb838b1fc4
     :git: https://github.com/roxiemobile/modern-design.ios.git
@@ -120,6 +130,8 @@ SPEC CHECKSUMS:
   CryptoSwift: f81907430ebbe38b8404b4f6fb40f3c576a8755f
   Dispatch: 7ed89f2845001c4161ad83f43988b584fae8fff4
   GzipSwift: 1a5bc5f7827e09846b0635b5079f1224bc3b1c3a
+  Kanna: d5ae2a26472f7e7a474e7f36a9cd8aa2c8c63ad3
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   ModernDesign: bdf7a87f07f22db488292be596a6dbf3f639eece
   ModernDesignExtensions: 09d55fd1ed45a1381ecbd44e43f9efbe367d3dcb
   NetworkingApi: 8a29383a34751bd005505fef48446fe3530208fa
@@ -141,6 +153,6 @@ SPEC CHECKSUMS:
   SwiftCommonsObjC: 9ce27218606b397036a873e196f9bb489aa515dd
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: ec835ee9f5b3cb13e1a7b01fc3d6b334c6d261da
+PODFILE CHECKSUM: aa3c19a68bde24e3630558307a3daf296cae5958
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.4.0.beta.2

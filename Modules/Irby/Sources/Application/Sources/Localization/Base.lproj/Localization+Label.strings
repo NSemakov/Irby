@@ -1,0 +1,111 @@
+// ----------------------------------------------------------------------------
+//
+//  Localization+Label.strings
+//
+//  @author     Denis Kolyasev <KolyasevDA@ekassir.com>
+//  @copyright  Copyright (c) 2016, eKassir Ltd. All rights reserved.
+//  @link       http://www.ekassir.com/
+//
+// ----------------------------------------------------------------------------
+
+// MARK: - HUD
+
+"HUDWaiting" = "Ждите…";
+"HUDDataLoading" = "Загрузка данных…";
+"HUDLoading" = "Загрузка";
+
+// MARK: - Splash Screen
+
+"SplashScreenText1" = "Свобода\nпередвижения";
+"SplashScreenText2" = "Такси с лёгким\nхарактером";
+"SplashScreenText3" = "Наслаждаться\nпоездкой в такси\nлегче, чем\nкажется";
+
+// MARK: - Application Update
+
+"ApplicationUpdateMessageFormat" = "Доступна новая версия приложения %@. Пожалуйста,\nобновитесь до версии %@";
+
+// MARK: - Geocode
+
+"GeocodeError" = "Не удалось определить адрес";
+
+// MARK: - Registration
+
+"SendSmsAgain" = "Выслать повторно";
+"SendSmsAgainFormat" = "Выслать повторно (%d)";
+"SMSSentFormat" = "На номер %@ выслано SMS с кодом";
+"WrongCode" = "Проверьте, правильно ли введен код";
+
+// MARK: - Profile Discount
+
+"YourDiscountFormat" = "Ваша скидка — %.2g%%";
+
+// MARK: - Order
+
+"SelectPoint" = "Выберите точку";
+"AddComment" = "Комментарий";
+"DateAtTimeFormat" = "%@ в %@";
+"AsSoonAsPossible" = "Сейчас";
+"PerformOrder" = "Заказать такси";
+"Driver" = "Водитель";
+"YourComment" = "Ваш комментарий";
+
+// MARK: - Payment
+
+"CashPayment" = "Наличными";
+
+// MARK: - Social sharing
+
+"TaxiAppOnAppStoreFormat" = "Приложение %@ на App Store";
+
+// MARK: - About application
+
+"AppVersionFormat" = "версия %@";
+"AppNameFormat" = "%@ для iOS";
+
+// MARK: - Order taxi phone screen / registration phone screen
+
+"TaxiOrder" = "Заказ такси";
+"DriverWillCallAndSpecify" = "Водитель позвонит и уточнит, куда подъехать.";
+"InputYourNumber" = "Введите ваш номер телефона";
+"SMSWillComeForConfirmation" = "Вам придет SMS для подтверждения регистрации.";
+
+// MARK: - Ride Statuses
+
+"RideStatusCompleted" = "Заказ завершен";
+"RideStatusCancelled" = "Заказ отменен";
+"RideUpdatedPriceMessageFormat" = "Новая цена заказа %@";
+
+// MARK: - Payment Methods
+
+"PaymentCardBindingError" = "Не удалось привязать карту";
+"PaymentCardIsExpiredFormat" = "У вашей карты %@ истёк срок действия.\nПривязать новую карту?";
+
+// MARK: - Pin View
+
+"Min" = "мин";
+
+// MARK: - Promo
+
+"MoneyAmountFormat" = "Зачислено %@";
+
+// MARK: - Pending Order Screen
+
+"DriverDeferredOrderPart1" = "Водитель прибудет ";
+"DriverDeferredOrderDateFormat" = "%@ к %@.";
+"DriverDeferredOrderPart2" = "\nВы получите уведомление об этом.";
+
+// MARK: - Create Profile View
+
+"GetSales" = "Получайте скидки, сохраняйте любимые адреса и заказывайте такси быстрее";
+
+// MARK: - About Application
+
+"AboutApplicationSpb" = "Заказ такси в Санкт-Петербурге круглосуточно. Скидки для постоянных клиентов, бонусная программа.";
+"AboutApplicationRiga" = "Заказ такси в Риге круглосуточно. Скидки для постоянных клиентов, бонусная программа.";
+
+// MARK: - Feedback
+
+"ThankYouForFeedback" = "Спасибо за отзыв";
+"ThankYouForProblemReport" = "Спасибо за обратную связь!\nВаше сообщение отправлено в нашу IT-службу.";
+
+// ----------------------------------------------------------------------------

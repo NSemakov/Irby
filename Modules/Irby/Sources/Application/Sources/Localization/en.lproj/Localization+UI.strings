@@ -1,0 +1,188 @@
+/* ----------------------------------------------------------------------------
+Localization+UI.swift
+@author Nikita Semakov <SemakovNV@ekassir.com>
+@copyright  Copyright (c) 2017, eKassir Ltd. All rights reserved.
+@link       http://www.ekassir.com
+//---------------------------------------------------------------------------- */
+
+"label_dispatcher" = "Operator";
+
+"label_payment" = "Payment";
+
+"label_ridehistory_menu" = "Ride history";
+
+"label_favoriteaddresses_menu" = "Favorite location";
+
+"label_promo_menu" = "Promo codes";
+
+"label_settings_menu" = "Settings";
+
+"label_leavefeedback_menu" = "Write a review";
+
+"button_register" = "Registration";
+
+"label_countryname_phonenumbercontroller" = "Russia";
+
+"textfield_placeholder_number_phonenumbercontroller" = "Type your telephone number";
+
+"button_skip" = "Skip";
+
+"button_continue" = "Continue";
+
+"label_smscode_otp" = "SMS code";
+
+"button_adddestinationpoint" = "Add a destination point";
+
+"button_save" = "Save";
+
+"label_fastesttime" = "As soon as possible";
+
+"label_accuratetime" = "Specify exact time";
+
+"label_info_timechoicetablecontroller" = "Local time at pickup location should be specified";
+
+"label_profilephotohint" = "It will be easier for the driver to recognize you with your photo";
+
+"label_name" = "Name";
+
+"label_phone" = "Telephone";
+
+"label_email" = "Email";
+
+"label_bonusaccount" = "Bonus account";
+
+"label_promo_profilecontroller" = "Deposited for the promo code";
+
+"button_addcard" = "Add a card";
+
+"button_callanothertaxi" = "Ordered another taxi";
+
+"label_whycancel_profilcontroller" = "Why did you cancel the ride?";
+
+"button_chooseonmap" = "Select on the map";
+
+"button_terminals" = "Airports and railway stations";
+
+"textfield_placeholder_inputaddress" = "Type the address";
+
+"label_chooseaddress" = "Select the address";
+
+"button_addaddress" = "Add a location";
+
+"label_addfavoriteaddress" = "Add favorite locations";
+
+"label_writetosupport" = "Email support";
+
+"label_feedbackbadtitle" = "Your comments and ideas are very important to us as they can help us improve our program in future versions.  ";
+
+"label_feedbackexcellenttitle" = "Please tell us about the functions we can add or improve in future application versions. It would be great if you write a review in the AppStore.";
+
+"label_writetoappstore" = "Review in AppStore";
+
+"label_sharewithfriends" = "Share with friends";
+
+"label_feedbackgoodtitle" = "Please contact support if you experience any problems with the application. We will be happy to assist you. ";
+
+"label_notify_settingscontroller" = "Notify me when taxi has arrived";
+
+"label_sms" = "SMS";
+
+"label_byphonecall_settingscontroller" = "By telephone call";
+
+"label_reportonemail" = "Email ride report";
+
+"button_aboutapp" = "About app";
+
+"button_logout" = "Log out";
+
+"label_rate" = "Rating";
+
+"label_driver" = "Driver";
+
+"label_total" = "Total";
+
+"button_repeat" = "Repeat";
+
+"label_rideswillappear" = "Ride history will be displayed";
+
+"label_rideswillappearhint" = "No rides yet. But you may order a taxi at any time :)";
+
+"button_ordertaxi" = "Order taxi";
+
+"label_presentPromo" = "Give 300 ₽ to your friend\n for the first ride.";
+
+"label_sendcode" = "Please send the code";
+
+"label_sendpromohint" = "You can send 5 codes";
+
+"button_sendcode" = "Send code";
+
+"button_send" = "Send";
+
+"label_havepromo" = "Do you have a promo code?";
+
+"label_entercode" = "Type the code";
+
+"textfield_placeholder_promo" = "Promo code";
+
+"label_promopurpose" = "You can spend these on your rides";
+
+"label_needregister" = "Registration is required";
+
+"label_registrationhint" = "To use this function you need to register by phone. This will take less than a minute.";
+
+"button_downloadnupdate" = "Download and update";
+
+"label_whatdoyoulike" = "What did you like?";
+
+"button_clearauto" = "Clean car";
+
+"button_politedriver" = "Polite driver";
+
+"button_comfortatmosphere" = "Comfortable atmosphere";
+
+"button_gooddriving" = "Good driving";
+
+"label_whatyoudontlike" = "What did you dislike?";
+
+"button_dirtyauto" = "Dirty car";
+
+"button_impolitedriver" = "Rude driver";
+
+"button_uncomfortableatmosphere" = "Uncomfortable atmosphere";
+
+"button_dangerousdriving" = "Dangerous driving";
+
+"button_addcomment" = "Add a comment";
+
+"label_countryname_latvia" = "Latvia";
+
+"label_countryname_russia" = "Russia";
+
+"label_cash_payment" = "Cash";
+
+"label_addfavoriteaddresshint" = "Add your home or work address, so you can select it when ordering a taxi.";
+
+"button_report_a_bug" = "Report a bug";
+
+"button_cancel_ride" = "Cancel ride";
+
+"button_send" = "Send";
+
+"label_geocode_nothing_found" = "Nothing found";
+
+"label_pickuptime" = "Arrival time:";
+
+"label_paymentmethod" = "Payment:";
+
+"button_additional_services" = "Add. services";
+
+"label_thank_you_for_feedback" = "Thank you for feedback";
+
+"label_infopush_settingscontroller" = "Push notifications";
+
+"label_bypush_settingscontroller" = "By push notification";
+
+"label_pushpromoactions" = "Promotions";
+
+"label_pushnews" = "News";

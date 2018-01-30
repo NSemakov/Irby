@@ -1,0 +1,117 @@
+// ----------------------------------------------------------------------------
+//
+//  Localization+Alert.strings
+//
+//  @author     Denis Kolyasev <KolyasevDA@ekassir.com>
+//  @copyright  Copyright (c) 2016, eKassir Ltd. All rights reserved.
+//  @link       http://www.ekassir.com/
+//
+// ----------------------------------------------------------------------------
+
+// MARK: - Alert Titles
+
+"TitleError" = "Ошибка";
+"TitleInformation" = "Информация";
+"TitleWorkInProgress" = "В разработке";
+
+"TitleHttp401_Unauthorized" = "Недоступно";
+"TitleHttp403_Forbidden" = "Недоступно";
+"TitleHttp404_NotFound" = "Ошибка";
+"TitleHttp406_NotAcceptable" = "Ошибка";
+"TitleHttp422_UnprocessableEntity" = "Ошибка";
+"TitleHttp500_InternalServerError" = "Ошибка";
+"TitleHttp502_BadGateway" = "Ошибка";
+"TitleHttp503_ServiceUnavailable" = "Система обслуживается";
+
+"TitleLeaveFeedback" = "Оценить приложение";
+
+"TitleRemoving" = "Удаление";
+
+"TitleExit" = "Выход";
+
+// MARK: - Web Service
+
+"CannotAccessServer" = "Проблемы с сетью. Пожалуйста, убедитесь, что мобильная сеть включена, и попробуйте ещё раз.";
+"InvalidResponse" = "Ошибка в данных.";
+
+"Http401_Unauthorized" = "Требуется авторизация.";
+"Http403_Forbidden" = "У вас отсутвуют права доступа к данному ресурсу.";
+"Http404_NotFound" = "Извините, произошла ошибка.";
+"Http406_NotAcceptable" = "Извините, произошла ошибка, мы уже работаем над ее исправлением.";
+"Http422_UnprocessableEntity" = "Извините, произошла ошибка, мы уже работаем над ее исправлением.";
+"Http500_InternalServerError" = "Извините, произошла ошибка, мы уже работаем над ее исправлением.";
+"Http502_BadGateway" = "Извините, произошла ошибка, мы уже работаем над ее исправлением.";
+"Http503_ServiceUnavailable" = "Проводятся работы по обновлению системы.";
+
+// MARK: - Application
+
+"WorkInProgress" = "Функция будет доступна в будущих версиях приложения.";
+
+// MARK: - Web
+
+"LoadingError" = "Ошибка загрузки.";
+
+"UnexpectedHttpError" = "Извините, произошла ошибка, мы уже работаем над ее исправлением.";
+
+// MARK: - Validation
+
+"TextFieldIsEmpty" = "Поле «%@» должно быть заполнено";
+"TextFieldIsNotValid" = "Некорректно заполнено поле «%@»";
+
+// MARK: - Location
+
+"LocationErrorDenied" = "Похоже, что у Вас отключена геолокация. Для правильного определения Вашего местоположения рекомендуем её включить.";
+
+"LocationError" = "Извините, произошла ошибка при определении местоположения.";
+
+// MARK: - Photo editing
+
+"ActionCancel" = "Отмена";
+"ActionDelete" = "Удалить фото";
+"ActionChoose" = "Выбрать фото";
+"ActionMake" = "Сделать фото";
+"CameraIsUnavailable" = "Камера недоступна";
+
+// MARK: - Leave feedback
+
+"Excellent" = "Просто супер";
+"Good" = "Нравится";
+"ReportProblem" = "Сообщить о проблеме";
+"ActionClose" = "Закрыть";
+
+// MARK: - Phone call
+
+"CallPhoneNumber" = "Позвонить?";
+"CouldNotCall" = "Невозможно совершить звонок";
+
+// MARK: - Mail service
+
+"MailServiceNotAvailable" = "Почтовый сервис недоступен.";
+
+// MARK: - Review tab
+
+"LeaveReviewNotAvailable" = "В данный момент невозможно оставить отзыв.";
+
+// MARK: - Ride history detail
+
+"AreYouWantToDeleteRide" = "Вы действительно хотите удалить поездку?";
+
+// MARK: - Ride Order
+
+"RideOrderError" = "Пожалуйста, выберите различные точки для создания маршрута.";
+"AreYouSureWantToRemoveRideParameters" = "Вы уверены, что хотите очистить введённые данные?";
+"SelectDestinationPoint" = "Для заказа такси выберите точку назначения";
+
+// MARK: - SMS
+
+"SMSServiceNotAvailable" = "SMS сервис недоступен";
+
+// MARK: - Settings
+
+"AreYouSureWantToExitFormat" = "Вы действительно хотите выйти из вашего профиля\n%@ ?";
+
+// MARK: - Promo
+
+"PromoErrorDefault" = "Невозможно активировать промокод.";
+
+// ----------------------------------------------------------------------------

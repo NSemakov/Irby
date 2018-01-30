@@ -1,0 +1,137 @@
+/* No comment provided by engineer. */
+"AboutApplicationSpb" = "Order a taxi in Saint Petersburg 24 hours a day, 7 days a week. Discounts for regular customers, rewards program.";
+
+/* No comment provided by engineer. */
+"AboutApplicationRiga" = "Order a taxi in Riga 24 hours a day, 7 days a week. Discounts for regular customers, rewards program.";
+
+/* No comment provided by engineer. */
+"AddComment" = "Add a comment";
+
+/* No comment provided by engineer. */
+"AppNameFormat" = "%@ for iOS";
+
+/* No comment provided by engineer. */
+"AppVersionFormat" = "version %@";
+
+/* No comment provided by engineer. */
+"ApplicationUpdateMessageFormat" = "A new version of  the application %@ is available. Please 
+upgrade to version %@";
+
+/* No comment provided by engineer. */
+"AsSoonAsPossible" = "Now";
+
+/* No comment provided by engineer. */
+"CashPayment" = "Cash";
+
+/* No comment provided by engineer. */
+"DateAtTimeFormat" = "%@ at %@";
+
+/* No comment provided by engineer. */
+"Driver" = "Driver";
+
+/* No comment provided by engineer. */
+"DriverDeferredOrderDateFormat" = "%@ to %@.";
+
+/* No comment provided by engineer. */
+"DriverDeferredOrderPart1" = "The driver will arrive on ";
+
+/* No comment provided by engineer. */
+"DriverDeferredOrderPart2" = "
+You will be notified.";
+
+/* No comment provided by engineer. */
+"DriverWillCallAndSpecify" = "The driver will call and specify the pickup location.";
+
+/* No comment provided by engineer. */
+"GeocodeError" = "Cannot recognize location";
+
+/* No comment provided by engineer. */
+"HUDDataLoading" = "Loading data…";
+
+/* No comment provided by engineer. */
+"HUDLoading" = "Loading";
+
+/* No comment provided by engineer. */
+"HUDWaiting" = "Please wait…";
+
+/* No comment provided by engineer. */
+"InputYourNumber" = "Type your telephone number";
+
+/* No comment provided by engineer. */
+"Min" = "min";
+
+/* No comment provided by engineer. */
+"MoneyAmountFormat" = "Deposited %@";
+
+/* No comment provided by engineer. */
+"PaymentCardBindingError" = "Failed to link the card";
+
+/* No comment provided by engineer. */
+"PaymentCardIsExpiredFormat" = "Your card %@ is expired.
+Link another card?";
+
+/* No comment provided by engineer. */
+"PerformOrder" = "Order taxi";
+
+/* No comment provided by engineer. */
+"RideStatusCancelled" = "The order was cancelled";
+
+/* No comment provided by engineer. */
+"RideStatusCompleted" = "Order was successful";
+
+/* No comment provided by engineer. */
+"RideUpdatedPriceMessageFormat" = "Новая цена заказа %@";
+
+/* No comment provided by engineer. */
+"SMSSentFormat" = "Code was sent via SMS to %@";
+
+/* No comment provided by engineer. */
+"SMSWillComeForConfirmation" = "You will get an SMS to confirm your registration";
+
+/* No comment provided by engineer. */
+"SelectPoint" = "Select the point";
+
+/* No comment provided by engineer. */
+"SendSmsAgain" = "Send again";
+
+/* No comment provided by engineer. */
+"SendSmsAgainFormat" = "Send again (%d)";
+
+/* No comment provided by engineer. */
+"SplashScreenText1" = "Freedom
+of movement";
+
+/* No comment provided by engineer. */
+"SplashScreenText2" = "Easygoing
+taxi";
+
+/* No comment provided by engineer. */
+"SplashScreenText3" = "Enjoying
+a taxi ride
+is easier
+than you think";
+
+/* No comment provided by engineer. */
+"TaxiAppOnAppStoreFormat" = "Application %@ on App Store";
+
+/* No comment provided by engineer. */
+"TaxiOrder" = "Order a taxi";
+
+/* No comment provided by engineer. */
+"WrongCode" = "Please check if the code is correct";
+
+/* No comment provided by engineer. */
+"YourDiscountFormat" = "Your discount is — %.2g%%";
+
+/* No comment provided by engineer. */
+"GetSales" = "Get discounts, save your favorite locations and book a taxi faster";
+
+/* No comment provided by engineer. */
+"YourComment" = "Your comment";
+
+/* No comment provided by engineer. */
+"ThankYouForFeedback" = "Thank you for feedback";
+
+/* No comment provided by engineer. */
+"ThankYouForProblemReport" = "Thank you for feedback!\nYour message has been sent to IT service.";
+

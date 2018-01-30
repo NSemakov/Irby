@@ -1,0 +1,43 @@
+// ----------------------------------------------------------------------------
+//
+//  Localization+Title.strings
+//
+//  @author     Denis Kolyasev <KolyasevDA@ekassir.com>
+//  @copyright  Copyright (c) 2016, eKassir Ltd. All rights reserved.
+//  @link       http://www.ekassir.com/
+//
+// ----------------------------------------------------------------------------
+
+// MARK: - Screen
+
+"Profile" = "Профиль";
+"Payment" = "Оплата";
+"RidesHistory" = "История поездок";
+"Places" = "Любимые адреса";
+"Feedback" = "Оставьте отзыв";
+"Settings" = "Настройки";
+"PushSettings" = "Настройки push";
+"TaxiOrder" = "Заказ такси";
+"MessageForDriver" = "Комментарий для водителя";
+"Message" = "Комментарий";
+"TimeChoice" = "Время подачи";
+"GeoPointSelector" = "Выберите адрес на карте";
+"NewRideStatus" = "Выполняется назначение авто";
+"AcceptedRideStatus" = "К вам едет автомобиль";
+"ArrivedRideStatus" = "Такси подано!";
+"InProgressRideStatus" = "Выполняется заказ";
+"RideCancelled" = "Поездка отменена";
+"EvaluateRide" = "Оцените поездку";
+"AboutApp" = "О приложении";
+"Promo" = "Промокоды";
+"EnterPromo" = "Введите промокод";
+"AddCard" = "Добавить карту";
+"FromAddress" = "Откуда поедем";
+"AppUpdateAlailable" = "Доступно обновление";
+"MoneyHaveCome" = "Зачислены средства";
+"OrderAcceptedNewRideStatus" = "Заказ принят";
+"AirportsnRailways" = "Аэропорты и вокзалы";
+"AdditionalServices" = "Дополнительные услуги";
+"AdditionalServicesFormat" = "Доп. услуги (+ %@)";
+
+// ----------------------------------------------------------------------------

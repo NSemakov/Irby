@@ -27,6 +27,7 @@ target 'Irby.Core.Entities' do
 
   # Dependencies
   pod 'SwiftCommons', :git => 'https://github.com/roxiemobile/swift-commons.ios.git'
+  pod 'Kanna', :git => 'https://github.com/tid-kijyun/Kanna.git', :branch => 'feature/v4.0.0'
 end
 
 target 'Irby.Core.Net' do
@@ -35,6 +36,8 @@ target 'Irby.Core.Net' do
   # Dependencies
   inject_shared_dependencies_1
   inject_shared_dependencies_2
+
+  pod 'Kanna', :git => 'https://github.com/tid-kijyun/Kanna.git', :branch => 'feature/v4.0.0'
 end
 
 abstract_target 'Irby.Translation' do
@@ -46,6 +49,8 @@ abstract_target 'Irby.Translation' do
 
   pod 'ModernDesign', :git => 'https://github.com/roxiemobile/modern-design.ios.git'
   pod 'R.swift', '~> 4.0.0'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'Kanna', :git => 'https://github.com/tid-kijyun/Kanna.git', :branch => 'feature/v4.0.0'
 
   # Targets
   target 'Irby'

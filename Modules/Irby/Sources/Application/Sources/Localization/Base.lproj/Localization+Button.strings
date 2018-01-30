@@ -1,0 +1,49 @@
+// ----------------------------------------------------------------------------
+//
+//  Localization+Button.strings
+//
+//  @author     Denis Kolyasev <KolyasevDA@ekassir.com>
+//  @copyright  Copyright (c) 2016, eKassir Ltd. All rights reserved.
+//  @link       http://www.ekassir.com/
+//
+// ----------------------------------------------------------------------------
+
+// MARK: - Common
+
+"Yes" = "Да";
+"No" = "Нет";
+"Close" = "Закрыть";
+"ContinueButton" = "Продолжить";
+"Cancel" = "Отмена";
+"Show" = "Показать";
+"Remove" = "Удалить";
+"Rename" = "Переименовать";
+"Further" = "Дальше";
+"Settings" = "Настройки";
+"Skip" = "Пропустить";
+"Retry" = "Повторить";
+"Logout" = "Выход";
+"Save" = "Сохранить";
+"Menu" = "Меню";
+"Edit" = "Изменить";
+"Done" = "Готово";
+"RepeatButton" = "Повторить";
+"Update" = "Обновить";
+
+
+// MARK: - Ride
+
+"CallDispatcher" = "Позвонить диспетчеру";
+"CallDriver" = "Позвонить водителю";
+"SendSMSToDriver" = "Отправить SMS водителю";
+"OrderTaxi" = "Заказать такси";
+"OrderByError" = "Заказал по ошибке";
+"TooLongToWait" = "Слишком долго ждать";
+"CatchTaxiOnStreet" = "Вызвал другое такси";
+"ConfirmAddress" = "Далее";
+"Tie" = "Привязать";
+"Ok" = "Ок";
+"CancelRide" = "Отменить";
+"Contact" = "Связаться";
+
+// ----------------------------------------------------------------------------

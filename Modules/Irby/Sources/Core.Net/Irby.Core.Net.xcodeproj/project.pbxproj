@@ -7,401 +7,215 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		248A8998201E47C9005C0C2B /* DataUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8959201E47C9005C0C2B /* DataUrl.swift */; };
-		248A8999201E47C9005C0C2B /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A895B201E47C9005C0C2B /* MediaType.swift */; };
-		248A899A201E47C9005C0C2B /* ImageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A895F201E47C9005C0C2B /* ImageBody.swift */; };
-		248A899B201E47C9005C0C2B /* ParcelableModelBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8960201E47C9005C0C2B /* ParcelableModelBody.swift */; };
-		248A899C201E47C9005C0C2B /* VendorJsonBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8961201E47C9005C0C2B /* VendorJsonBody.swift */; };
-		248A899D201E47C9005C0C2B /* HttpKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8962201E47C9005C0C2B /* HttpKeys.swift */; };
-		248A899E201E47C9005C0C2B /* StringBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8963201E47C9005C0C2B /* StringBody.swift */; };
-		248A899F201E47C9005C0C2B /* ValidatableModelArrayConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8966201E47C9005C0C2B /* ValidatableModelArrayConverter.swift */; };
-		248A89A0201E47C9005C0C2B /* ValidatableModelConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8967201E47C9005C0C2B /* ValidatableModelConverter.swift */; };
-		248A89A1201E47C9005C0C2B /* CreateTokenTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A896A201E47C9005C0C2B /* CreateTokenTask.swift */; };
-		248A89A2201E47C9005C0C2B /* OtpTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A896B201E47C9005C0C2B /* OtpTask.swift */; };
-		248A89A3201E47C9005C0C2B /* RevokeTokenTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A896C201E47C9005C0C2B /* RevokeTokenTask.swift */; };
-		248A89A4201E47C9005C0C2B /* VendorAbstractTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A896E201E47C9005C0C2B /* VendorAbstractTask.swift */; };
-		248A89A5201E47C9005C0C2B /* EstimatesTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8970201E47C9005C0C2B /* EstimatesTask.swift */; };
-		248A89A6201E47C9005C0C2B /* SendFeedbackTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8972201E47C9005C0C2B /* SendFeedbackTask.swift */; };
-		248A89A7201E47C9005C0C2B /* GeocodeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8974201E47C9005C0C2B /* GeocodeTask.swift */; };
-		248A89A8201E47C9005C0C2B /* ReverseGeocodeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8975201E47C9005C0C2B /* ReverseGeocodeTask.swift */; };
-		248A89A9201E47C9005C0C2B /* UpdateSettingsTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8976201E47C9005C0C2B /* UpdateSettingsTask.swift */; };
-		248A89AA201E47C9005C0C2B /* UpdatePushTokenTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8978201E47C9005C0C2B /* UpdatePushTokenTask.swift */; };
-		248A89AB201E47C9005C0C2B /* CancelPaymentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A897A201E47C9005C0C2B /* CancelPaymentTask.swift */; };
-		248A89AC201E47C9005C0C2B /* CreatePaymentCardTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A897B201E47C9005C0C2B /* CreatePaymentCardTask.swift */; };
-		248A89AD201E47C9005C0C2B /* DeleteBankCardTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A897C201E47C9005C0C2B /* DeleteBankCardTask.swift */; };
-		248A89AE201E47C9005C0C2B /* PaymentCardsTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A897D201E47C9005C0C2B /* PaymentCardsTask.swift */; };
-		248A89AF201E47C9005C0C2B /* CreatePlaceTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A897F201E47C9005C0C2B /* CreatePlaceTask.swift */; };
-		248A89B0201E47C9005C0C2B /* DeletePlaceTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8980201E47C9005C0C2B /* DeletePlaceTask.swift */; };
-		248A89B1201E47C9005C0C2B /* PlacesTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8981201E47C9005C0C2B /* PlacesTask.swift */; };
-		248A89B2201E47C9005C0C2B /* PreflightTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8983201E47C9005C0C2B /* PreflightTask.swift */; };
-		248A89B3201E47C9005C0C2B /* ProfileTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8985201E47C9005C0C2B /* ProfileTask.swift */; };
-		248A89B4201E47C9005C0C2B /* UpdateProfileImageTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8986201E47C9005C0C2B /* UpdateProfileImageTask.swift */; };
-		248A89B5201E47C9005C0C2B /* UpdateProfileTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8987201E47C9005C0C2B /* UpdateProfileTask.swift */; };
-		248A89B6201E47C9005C0C2B /* CancelRideTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8989201E47C9005C0C2B /* CancelRideTask.swift */; };
-		248A89B7201E47C9005C0C2B /* CreateRideTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A898A201E47C9005C0C2B /* CreateRideTask.swift */; };
-		248A89B8201E47C9005C0C2B /* DeleteRideTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A898B201E47C9005C0C2B /* DeleteRideTask.swift */; };
-		248A89B9201E47C9005C0C2B /* RateRideTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A898C201E47C9005C0C2B /* RateRideTask.swift */; };
-		248A89BA201E47C9005C0C2B /* RidesHistoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A898D201E47C9005C0C2B /* RidesHistoryTask.swift */; };
-		248A89BB201E47C9005C0C2B /* RidesWaypointsPickupTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A898E201E47C9005C0C2B /* RidesWaypointsPickupTask.swift */; };
-		248A89BC201E47C9005C0C2B /* RideTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A898F201E47C9005C0C2B /* RideTask.swift */; };
-		248A89BD201E47C9005C0C2B /* SendPromoTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8990201E47C9005C0C2B /* SendPromoTask.swift */; };
-		248A89BE201E47C9005C0C2B /* DirectionsTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8992201E47C9005C0C2B /* DirectionsTask.swift */; };
-		248A89BF201E47C9005C0C2B /* NearbyTaxicabsTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8994201E47C9005C0C2B /* NearbyTaxicabsTask.swift */; };
-		248A89C0201E47C9005C0C2B /* DirectionsApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8996201E47C9005C0C2B /* DirectionsApiRoute.swift */; };
-		248A89C1201E47C9005C0C2B /* RestApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A8997201E47C9005C0C2B /* RestApiRoute.swift */; };
-		DD11B6DBBF0CB14C9E65B6B5 /* Pods_Irby_Core_Net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE41844DAA1D88D00862B995 /* Pods_Irby_Core_Net.framework */; };
+		2470EC96201FE76100C68143 /* DataUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC57201FE76100C68143 /* DataUrl.swift */; };
+		2470EC97201FE76100C68143 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC59201FE76100C68143 /* MediaType.swift */; };
+		2470EC98201FE76100C68143 /* ImageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC5D201FE76100C68143 /* ImageBody.swift */; };
+		2470EC99201FE76100C68143 /* ParcelableModelBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC5E201FE76100C68143 /* ParcelableModelBody.swift */; };
+		2470EC9A201FE76100C68143 /* VendorJsonBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC5F201FE76100C68143 /* VendorJsonBody.swift */; };
+		2470EC9B201FE76100C68143 /* HttpKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC60201FE76100C68143 /* HttpKeys.swift */; };
+		2470EC9C201FE76100C68143 /* StringBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC61201FE76100C68143 /* StringBody.swift */; };
+		2470EC9D201FE76100C68143 /* ValidatableHTMLModelArrayConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC64201FE76100C68143 /* ValidatableHTMLModelArrayConverter.swift */; };
+		2470EC9E201FE76100C68143 /* ValidatableHTMLModelConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC65201FE76100C68143 /* ValidatableHTMLModelConverter.swift */; };
+		2470ECBF201FE76100C68143 /* RestApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470EC95201FE76100C68143 /* RestApiRoute.swift */; };
+		2470ECCD201FE8C100C68143 /* AmalgamaSongTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470ECCC201FE8C100C68143 /* AmalgamaSongTask.swift */; };
+		F66A185DA1571418A4139545 /* Pods_Irby_Core_Net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A40E05AEB8E02C7467141E /* Pods_Irby_Core_Net.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2470EC44201FE6F400C68143 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		248A8940201E475A005C0C2B /* Irby.Core.Net.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Irby.Core.Net.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		248A8959201E47C9005C0C2B /* DataUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUrl.swift; sourceTree = "<group>"; };
-		248A895B201E47C9005C0C2B /* MediaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
-		248A895F201E47C9005C0C2B /* ImageBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBody.swift; sourceTree = "<group>"; };
-		248A8960201E47C9005C0C2B /* ParcelableModelBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParcelableModelBody.swift; sourceTree = "<group>"; };
-		248A8961201E47C9005C0C2B /* VendorJsonBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendorJsonBody.swift; sourceTree = "<group>"; };
-		248A8962201E47C9005C0C2B /* HttpKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpKeys.swift; sourceTree = "<group>"; };
-		248A8963201E47C9005C0C2B /* StringBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringBody.swift; sourceTree = "<group>"; };
-		248A8966201E47C9005C0C2B /* ValidatableModelArrayConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatableModelArrayConverter.swift; sourceTree = "<group>"; };
-		248A8967201E47C9005C0C2B /* ValidatableModelConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatableModelConverter.swift; sourceTree = "<group>"; };
-		248A896A201E47C9005C0C2B /* CreateTokenTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTokenTask.swift; sourceTree = "<group>"; };
-		248A896B201E47C9005C0C2B /* OtpTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtpTask.swift; sourceTree = "<group>"; };
-		248A896C201E47C9005C0C2B /* RevokeTokenTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevokeTokenTask.swift; sourceTree = "<group>"; };
-		248A896E201E47C9005C0C2B /* VendorAbstractTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendorAbstractTask.swift; sourceTree = "<group>"; };
-		248A8970201E47C9005C0C2B /* EstimatesTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatesTask.swift; sourceTree = "<group>"; };
-		248A8972201E47C9005C0C2B /* SendFeedbackTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendFeedbackTask.swift; sourceTree = "<group>"; };
-		248A8974201E47C9005C0C2B /* GeocodeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodeTask.swift; sourceTree = "<group>"; };
-		248A8975201E47C9005C0C2B /* ReverseGeocodeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeTask.swift; sourceTree = "<group>"; };
-		248A8976201E47C9005C0C2B /* UpdateSettingsTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateSettingsTask.swift; sourceTree = "<group>"; };
-		248A8978201E47C9005C0C2B /* UpdatePushTokenTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePushTokenTask.swift; sourceTree = "<group>"; };
-		248A897A201E47C9005C0C2B /* CancelPaymentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelPaymentTask.swift; sourceTree = "<group>"; };
-		248A897B201E47C9005C0C2B /* CreatePaymentCardTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentCardTask.swift; sourceTree = "<group>"; };
-		248A897C201E47C9005C0C2B /* DeleteBankCardTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteBankCardTask.swift; sourceTree = "<group>"; };
-		248A897D201E47C9005C0C2B /* PaymentCardsTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentCardsTask.swift; sourceTree = "<group>"; };
-		248A897F201E47C9005C0C2B /* CreatePlaceTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePlaceTask.swift; sourceTree = "<group>"; };
-		248A8980201E47C9005C0C2B /* DeletePlaceTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeletePlaceTask.swift; sourceTree = "<group>"; };
-		248A8981201E47C9005C0C2B /* PlacesTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesTask.swift; sourceTree = "<group>"; };
-		248A8983201E47C9005C0C2B /* PreflightTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreflightTask.swift; sourceTree = "<group>"; };
-		248A8985201E47C9005C0C2B /* ProfileTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTask.swift; sourceTree = "<group>"; };
-		248A8986201E47C9005C0C2B /* UpdateProfileImageTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileImageTask.swift; sourceTree = "<group>"; };
-		248A8987201E47C9005C0C2B /* UpdateProfileTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileTask.swift; sourceTree = "<group>"; };
-		248A8989201E47C9005C0C2B /* CancelRideTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelRideTask.swift; sourceTree = "<group>"; };
-		248A898A201E47C9005C0C2B /* CreateRideTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRideTask.swift; sourceTree = "<group>"; };
-		248A898B201E47C9005C0C2B /* DeleteRideTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteRideTask.swift; sourceTree = "<group>"; };
-		248A898C201E47C9005C0C2B /* RateRideTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateRideTask.swift; sourceTree = "<group>"; };
-		248A898D201E47C9005C0C2B /* RidesHistoryTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesHistoryTask.swift; sourceTree = "<group>"; };
-		248A898E201E47C9005C0C2B /* RidesWaypointsPickupTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesWaypointsPickupTask.swift; sourceTree = "<group>"; };
-		248A898F201E47C9005C0C2B /* RideTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideTask.swift; sourceTree = "<group>"; };
-		248A8990201E47C9005C0C2B /* SendPromoTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendPromoTask.swift; sourceTree = "<group>"; };
-		248A8992201E47C9005C0C2B /* DirectionsTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsTask.swift; sourceTree = "<group>"; };
-		248A8994201E47C9005C0C2B /* NearbyTaxicabsTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyTaxicabsTask.swift; sourceTree = "<group>"; };
-		248A8996201E47C9005C0C2B /* DirectionsApiRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsApiRoute.swift; sourceTree = "<group>"; };
-		248A8997201E47C9005C0C2B /* RestApiRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiRoute.swift; sourceTree = "<group>"; };
-		5BC7056C4F6BEC790C6B0584 /* Pods-Irby.Core.Net.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Irby.Core.Net.debug.xcconfig"; path = "../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Net/Pods-Irby.Core.Net.debug.xcconfig"; sourceTree = "<group>"; };
-		A67C4BCAAC9E9E72712134F3 /* Pods-Irby.Core.Net.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Irby.Core.Net.release.xcconfig"; path = "../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Net/Pods-Irby.Core.Net.release.xcconfig"; sourceTree = "<group>"; };
-		FE41844DAA1D88D00862B995 /* Pods_Irby_Core_Net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Irby_Core_Net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2470EC46201FE6F400C68143 /* libIrbyCoreNet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIrbyCoreNet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2470EC57201FE76100C68143 /* DataUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUrl.swift; sourceTree = "<group>"; };
+		2470EC59201FE76100C68143 /* MediaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		2470EC5D201FE76100C68143 /* ImageBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBody.swift; sourceTree = "<group>"; };
+		2470EC5E201FE76100C68143 /* ParcelableModelBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParcelableModelBody.swift; sourceTree = "<group>"; };
+		2470EC5F201FE76100C68143 /* VendorJsonBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendorJsonBody.swift; sourceTree = "<group>"; };
+		2470EC60201FE76100C68143 /* HttpKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpKeys.swift; sourceTree = "<group>"; };
+		2470EC61201FE76100C68143 /* StringBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringBody.swift; sourceTree = "<group>"; };
+		2470EC64201FE76100C68143 /* ValidatableHTMLModelArrayConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatableHTMLModelArrayConverter.swift; sourceTree = "<group>"; };
+		2470EC65201FE76100C68143 /* ValidatableHTMLModelConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatableHTMLModelConverter.swift; sourceTree = "<group>"; };
+		2470EC95201FE76100C68143 /* RestApiRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiRoute.swift; sourceTree = "<group>"; };
+		2470ECCC201FE8C100C68143 /* AmalgamaSongTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmalgamaSongTask.swift; sourceTree = "<group>"; };
+		49A40E05AEB8E02C7467141E /* Pods_Irby_Core_Net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Irby_Core_Net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0C393D7090422E0F254777 /* Pods-Irby.Core.Net.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Irby.Core.Net.release.xcconfig"; path = "../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Net/Pods-Irby.Core.Net.release.xcconfig"; sourceTree = "<group>"; };
+		D85249F1F6657C301676CD73 /* Pods-Irby.Core.Net.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Irby.Core.Net.debug.xcconfig"; path = "../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Net/Pods-Irby.Core.Net.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		248A893D201E475A005C0C2B /* Frameworks */ = {
+		2470EC43201FE6F400C68143 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD11B6DBBF0CB14C9E65B6B5 /* Pods_Irby_Core_Net.framework in Frameworks */,
+				F66A185DA1571418A4139545 /* Pods_Irby_Core_Net.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		248A8937201E475A005C0C2B = {
+		2470EC3D201FE6F400C68143 = {
 			isa = PBXGroup;
 			children = (
-				248A8956201E47C9005C0C2B /* Dependancies */,
-				248A8955201E47C9005C0C2B /* Resources */,
-				248A8957201E47C9005C0C2B /* Sources */,
-				248A8941201E475A005C0C2B /* Products */,
-				CD34B7B99A9D59D4D2DEC956 /* Pods */,
-				FFBC8BE9B84B693DF35D1DFC /* Frameworks */,
+				2470EC54201FE76100C68143 /* Dependancies */,
+				2470EC53201FE76100C68143 /* Resources */,
+				2470EC55201FE76100C68143 /* Sources */,
+				2470EC47201FE6F400C68143 /* Products */,
+				F4AF1D295D9329F2DE4B3B56 /* Pods */,
+				E99CCE5C0077EBB811A41CBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		248A8941201E475A005C0C2B /* Products */ = {
+		2470EC47201FE6F400C68143 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				248A8940201E475A005C0C2B /* Irby.Core.Net.app */,
+				2470EC46201FE6F400C68143 /* libIrbyCoreNet.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		248A8955201E47C9005C0C2B /* Resources */ = {
+		2470EC53201FE76100C68143 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		248A8956201E47C9005C0C2B /* Dependancies */ = {
+		2470EC54201FE76100C68143 /* Dependancies */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Dependancies;
 			sourceTree = "<group>";
 		};
-		248A8957201E47C9005C0C2B /* Sources */ = {
+		2470EC55201FE76100C68143 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				248A8958201E47C9005C0C2B /* HTTP */,
-				248A895C201E47C9005C0C2B /* REST */,
+				2470EC56201FE76100C68143 /* HTTP */,
+				2470EC5A201FE76100C68143 /* REST */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		248A8958201E47C9005C0C2B /* HTTP */ = {
+		2470EC56201FE76100C68143 /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
-				248A8959201E47C9005C0C2B /* DataUrl.swift */,
-				248A895A201E47C9005C0C2B /* MediaType */,
+				2470EC57201FE76100C68143 /* DataUrl.swift */,
+				2470EC58201FE76100C68143 /* MediaType */,
 			);
 			path = HTTP;
 			sourceTree = "<group>";
 		};
-		248A895A201E47C9005C0C2B /* MediaType */ = {
+		2470EC58201FE76100C68143 /* MediaType */ = {
 			isa = PBXGroup;
 			children = (
-				248A895B201E47C9005C0C2B /* MediaType.swift */,
+				2470EC59201FE76100C68143 /* MediaType.swift */,
 			);
 			path = MediaType;
 			sourceTree = "<group>";
 		};
-		248A895C201E47C9005C0C2B /* REST */ = {
+		2470EC5A201FE76100C68143 /* REST */ = {
 			isa = PBXGroup;
 			children = (
-				248A895D201E47C9005C0C2B /* API */,
-				248A8962201E47C9005C0C2B /* HttpKeys.swift */,
-				248A8963201E47C9005C0C2B /* StringBody.swift */,
-				248A8964201E47C9005C0C2B /* v1 */,
+				2470EC5B201FE76100C68143 /* API */,
+				2470EC60201FE76100C68143 /* HttpKeys.swift */,
+				2470EC61201FE76100C68143 /* StringBody.swift */,
+				2470EC62201FE76100C68143 /* v1 */,
 			);
 			path = REST;
 			sourceTree = "<group>";
 		};
-		248A895D201E47C9005C0C2B /* API */ = {
+		2470EC5B201FE76100C68143 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				248A895E201E47C9005C0C2B /* Request */,
+				2470EC5C201FE76100C68143 /* Request */,
 			);
 			path = API;
 			sourceTree = "<group>";
 		};
-		248A895E201E47C9005C0C2B /* Request */ = {
+		2470EC5C201FE76100C68143 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				248A895F201E47C9005C0C2B /* ImageBody.swift */,
-				248A8960201E47C9005C0C2B /* ParcelableModelBody.swift */,
-				248A8961201E47C9005C0C2B /* VendorJsonBody.swift */,
+				2470EC5D201FE76100C68143 /* ImageBody.swift */,
+				2470EC5E201FE76100C68143 /* ParcelableModelBody.swift */,
+				2470EC5F201FE76100C68143 /* VendorJsonBody.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
 		};
-		248A8964201E47C9005C0C2B /* v1 */ = {
+		2470EC62201FE76100C68143 /* v1 */ = {
 			isa = PBXGroup;
 			children = (
-				248A8965201E47C9005C0C2B /* Converter */,
-				248A8968201E47C9005C0C2B /* Request */,
-				248A8995201E47C9005C0C2B /* Routing */,
+				2470EC63201FE76100C68143 /* Converter */,
+				2470EC66201FE76100C68143 /* Request */,
+				2470EC93201FE76100C68143 /* Routing */,
 			);
 			path = v1;
 			sourceTree = "<group>";
 		};
-		248A8965201E47C9005C0C2B /* Converter */ = {
+		2470EC63201FE76100C68143 /* Converter */ = {
 			isa = PBXGroup;
 			children = (
-				248A8966201E47C9005C0C2B /* ValidatableModelArrayConverter.swift */,
-				248A8967201E47C9005C0C2B /* ValidatableModelConverter.swift */,
+				2470EC64201FE76100C68143 /* ValidatableHTMLModelArrayConverter.swift */,
+				2470EC65201FE76100C68143 /* ValidatableHTMLModelConverter.swift */,
 			);
 			path = Converter;
 			sourceTree = "<group>";
 		};
-		248A8968201E47C9005C0C2B /* Request */ = {
+		2470EC66201FE76100C68143 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				248A8969201E47C9005C0C2B /* Auth */,
-				248A896D201E47C9005C0C2B /* Base */,
-				248A896F201E47C9005C0C2B /* Estimate */,
-				248A8971201E47C9005C0C2B /* Feedback */,
-				248A8973201E47C9005C0C2B /* Geocode */,
-				248A8977201E47C9005C0C2B /* Notifications */,
-				248A8979201E47C9005C0C2B /* Payment */,
-				248A897E201E47C9005C0C2B /* Place */,
-				248A8982201E47C9005C0C2B /* Preflight */,
-				248A8984201E47C9005C0C2B /* Profile */,
-				248A8988201E47C9005C0C2B /* Ride */,
-				248A8991201E47C9005C0C2B /* Route */,
-				248A8993201E47C9005C0C2B /* Taxicab */,
+				2470ECCC201FE8C100C68143 /* AmalgamaSongTask.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
 		};
-		248A8969201E47C9005C0C2B /* Auth */ = {
+		2470EC93201FE76100C68143 /* Routing */ = {
 			isa = PBXGroup;
 			children = (
-				248A896A201E47C9005C0C2B /* CreateTokenTask.swift */,
-				248A896B201E47C9005C0C2B /* OtpTask.swift */,
-				248A896C201E47C9005C0C2B /* RevokeTokenTask.swift */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		248A896D201E47C9005C0C2B /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				248A896E201E47C9005C0C2B /* VendorAbstractTask.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		248A896F201E47C9005C0C2B /* Estimate */ = {
-			isa = PBXGroup;
-			children = (
-				248A8970201E47C9005C0C2B /* EstimatesTask.swift */,
-			);
-			path = Estimate;
-			sourceTree = "<group>";
-		};
-		248A8971201E47C9005C0C2B /* Feedback */ = {
-			isa = PBXGroup;
-			children = (
-				248A8972201E47C9005C0C2B /* SendFeedbackTask.swift */,
-			);
-			path = Feedback;
-			sourceTree = "<group>";
-		};
-		248A8973201E47C9005C0C2B /* Geocode */ = {
-			isa = PBXGroup;
-			children = (
-				248A8974201E47C9005C0C2B /* GeocodeTask.swift */,
-				248A8975201E47C9005C0C2B /* ReverseGeocodeTask.swift */,
-				248A8976201E47C9005C0C2B /* UpdateSettingsTask.swift */,
-			);
-			path = Geocode;
-			sourceTree = "<group>";
-		};
-		248A8977201E47C9005C0C2B /* Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				248A8978201E47C9005C0C2B /* UpdatePushTokenTask.swift */,
-			);
-			path = Notifications;
-			sourceTree = "<group>";
-		};
-		248A8979201E47C9005C0C2B /* Payment */ = {
-			isa = PBXGroup;
-			children = (
-				248A897A201E47C9005C0C2B /* CancelPaymentTask.swift */,
-				248A897B201E47C9005C0C2B /* CreatePaymentCardTask.swift */,
-				248A897C201E47C9005C0C2B /* DeleteBankCardTask.swift */,
-				248A897D201E47C9005C0C2B /* PaymentCardsTask.swift */,
-			);
-			path = Payment;
-			sourceTree = "<group>";
-		};
-		248A897E201E47C9005C0C2B /* Place */ = {
-			isa = PBXGroup;
-			children = (
-				248A897F201E47C9005C0C2B /* CreatePlaceTask.swift */,
-				248A8980201E47C9005C0C2B /* DeletePlaceTask.swift */,
-				248A8981201E47C9005C0C2B /* PlacesTask.swift */,
-			);
-			path = Place;
-			sourceTree = "<group>";
-		};
-		248A8982201E47C9005C0C2B /* Preflight */ = {
-			isa = PBXGroup;
-			children = (
-				248A8983201E47C9005C0C2B /* PreflightTask.swift */,
-			);
-			path = Preflight;
-			sourceTree = "<group>";
-		};
-		248A8984201E47C9005C0C2B /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				248A8985201E47C9005C0C2B /* ProfileTask.swift */,
-				248A8986201E47C9005C0C2B /* UpdateProfileImageTask.swift */,
-				248A8987201E47C9005C0C2B /* UpdateProfileTask.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		248A8988201E47C9005C0C2B /* Ride */ = {
-			isa = PBXGroup;
-			children = (
-				248A8989201E47C9005C0C2B /* CancelRideTask.swift */,
-				248A898A201E47C9005C0C2B /* CreateRideTask.swift */,
-				248A898B201E47C9005C0C2B /* DeleteRideTask.swift */,
-				248A898C201E47C9005C0C2B /* RateRideTask.swift */,
-				248A898D201E47C9005C0C2B /* RidesHistoryTask.swift */,
-				248A898E201E47C9005C0C2B /* RidesWaypointsPickupTask.swift */,
-				248A898F201E47C9005C0C2B /* RideTask.swift */,
-				248A8990201E47C9005C0C2B /* SendPromoTask.swift */,
-			);
-			path = Ride;
-			sourceTree = "<group>";
-		};
-		248A8991201E47C9005C0C2B /* Route */ = {
-			isa = PBXGroup;
-			children = (
-				248A8992201E47C9005C0C2B /* DirectionsTask.swift */,
-			);
-			path = Route;
-			sourceTree = "<group>";
-		};
-		248A8993201E47C9005C0C2B /* Taxicab */ = {
-			isa = PBXGroup;
-			children = (
-				248A8994201E47C9005C0C2B /* NearbyTaxicabsTask.swift */,
-			);
-			path = Taxicab;
-			sourceTree = "<group>";
-		};
-		248A8995201E47C9005C0C2B /* Routing */ = {
-			isa = PBXGroup;
-			children = (
-				248A8996201E47C9005C0C2B /* DirectionsApiRoute.swift */,
-				248A8997201E47C9005C0C2B /* RestApiRoute.swift */,
+				2470EC95201FE76100C68143 /* RestApiRoute.swift */,
 			);
 			path = Routing;
 			sourceTree = "<group>";
 		};
-		CD34B7B99A9D59D4D2DEC956 /* Pods */ = {
+		E99CCE5C0077EBB811A41CBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5BC7056C4F6BEC790C6B0584 /* Pods-Irby.Core.Net.debug.xcconfig */,
-				A67C4BCAAC9E9E72712134F3 /* Pods-Irby.Core.Net.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FFBC8BE9B84B693DF35D1DFC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FE41844DAA1D88D00862B995 /* Pods_Irby_Core_Net.framework */,
+				49A40E05AEB8E02C7467141E /* Pods_Irby_Core_Net.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4AF1D295D9329F2DE4B3B56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D85249F1F6657C301676CD73 /* Pods-Irby.Core.Net.debug.xcconfig */,
+				8B0C393D7090422E0F254777 /* Pods-Irby.Core.Net.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		248A893F201E475A005C0C2B /* Irby.Core.Net */ = {
+		2470EC45201FE6F400C68143 /* Irby.Core.Net */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 248A8952201E475A005C0C2B /* Build configuration list for PBXNativeTarget "Irby.Core.Net" */;
+			buildConfigurationList = 2470EC4F201FE6F400C68143 /* Build configuration list for PBXNativeTarget "Irby.Core.Net" */;
 			buildPhases = (
-				DA35E462B3A5BDB0B28FCD4D /* [CP] Check Pods Manifest.lock */,
-				248A893C201E475A005C0C2B /* Sources */,
-				248A893D201E475A005C0C2B /* Frameworks */,
-				248A893E201E475A005C0C2B /* Resources */,
-				EE3E81FE231FEFBF9550E9C5 /* [CP] Embed Pods Frameworks */,
-				69903EB9E9AA6B46D9E743DB /* [CP] Copy Pods Resources */,
+				2467C36790C8769911B3F0BA /* [CP] Check Pods Manifest.lock */,
+				2470EC42201FE6F400C68143 /* Sources */,
+				2470EC43201FE6F400C68143 /* Frameworks */,
+				2470EC44201FE6F400C68143 /* CopyFiles */,
+				AC864C4E0F2A82FDFEC27A29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -409,70 +223,43 @@
 			);
 			name = Irby.Core.Net;
 			productName = Irby.Core.Net;
-			productReference = 248A8940201E475A005C0C2B /* Irby.Core.Net.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 2470EC46201FE6F400C68143 /* libIrbyCoreNet.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		248A8938201E475A005C0C2B /* Project object */ = {
+		2470EC3E201FE6F400C68143 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Nik;
 				TargetAttributes = {
-					248A893F201E475A005C0C2B = {
+					2470EC45201FE6F400C68143 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 248A893B201E475A005C0C2B /* Build configuration list for PBXProject "Irby.Core.Net" */;
+			buildConfigurationList = 2470EC41201FE6F400C68143 /* Build configuration list for PBXProject "Irby.Core.Net" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 248A8937201E475A005C0C2B;
-			productRefGroup = 248A8941201E475A005C0C2B /* Products */;
+			mainGroup = 2470EC3D201FE6F400C68143;
+			productRefGroup = 2470EC47201FE6F400C68143 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				248A893F201E475A005C0C2B /* Irby.Core.Net */,
+				2470EC45201FE6F400C68143 /* Irby.Core.Net */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		248A893E201E475A005C0C2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXShellScriptBuildPhase section */
-		69903EB9E9AA6B46D9E743DB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Net/Pods-Irby.Core.Net-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA35E462B3A5BDB0B28FCD4D /* [CP] Check Pods Manifest.lock */ = {
+		2467C36790C8769911B3F0BA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -490,88 +277,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE3E81FE231FEFBF9550E9C5 /* [CP] Embed Pods Frameworks */ = {
+		AC864C4E0F2A82FDFEC27A29 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Net/Pods-Irby.Core.Net-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Dispatch/DispatchFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/GzipSwift/Gzip.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DispatchFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gzip.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Net/Pods-Irby.Core.Net-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../../../CocoaPods/Pods/Target Support Files/Pods-Irby.Core.Net/Pods-Irby.Core.Net-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		248A893C201E475A005C0C2B /* Sources */ = {
+		2470EC42201FE6F400C68143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248A89B0201E47C9005C0C2B /* DeletePlaceTask.swift in Sources */,
-				248A89A8201E47C9005C0C2B /* ReverseGeocodeTask.swift in Sources */,
-				248A89B9201E47C9005C0C2B /* RateRideTask.swift in Sources */,
-				248A89B2201E47C9005C0C2B /* PreflightTask.swift in Sources */,
-				248A899F201E47C9005C0C2B /* ValidatableModelArrayConverter.swift in Sources */,
-				248A8999201E47C9005C0C2B /* MediaType.swift in Sources */,
-				248A89A0201E47C9005C0C2B /* ValidatableModelConverter.swift in Sources */,
-				248A89A4201E47C9005C0C2B /* VendorAbstractTask.swift in Sources */,
-				248A8998201E47C9005C0C2B /* DataUrl.swift in Sources */,
-				248A89A7201E47C9005C0C2B /* GeocodeTask.swift in Sources */,
-				248A89A3201E47C9005C0C2B /* RevokeTokenTask.swift in Sources */,
-				248A89A9201E47C9005C0C2B /* UpdateSettingsTask.swift in Sources */,
-				248A89BD201E47C9005C0C2B /* SendPromoTask.swift in Sources */,
-				248A89BA201E47C9005C0C2B /* RidesHistoryTask.swift in Sources */,
-				248A89B1201E47C9005C0C2B /* PlacesTask.swift in Sources */,
-				248A89B3201E47C9005C0C2B /* ProfileTask.swift in Sources */,
-				248A89B5201E47C9005C0C2B /* UpdateProfileTask.swift in Sources */,
-				248A89A1201E47C9005C0C2B /* CreateTokenTask.swift in Sources */,
-				248A89B8201E47C9005C0C2B /* DeleteRideTask.swift in Sources */,
-				248A89C0201E47C9005C0C2B /* DirectionsApiRoute.swift in Sources */,
-				248A899C201E47C9005C0C2B /* VendorJsonBody.swift in Sources */,
-				248A89AA201E47C9005C0C2B /* UpdatePushTokenTask.swift in Sources */,
-				248A89A5201E47C9005C0C2B /* EstimatesTask.swift in Sources */,
-				248A89BE201E47C9005C0C2B /* DirectionsTask.swift in Sources */,
-				248A89AB201E47C9005C0C2B /* CancelPaymentTask.swift in Sources */,
-				248A899B201E47C9005C0C2B /* ParcelableModelBody.swift in Sources */,
-				248A89B4201E47C9005C0C2B /* UpdateProfileImageTask.swift in Sources */,
-				248A89AD201E47C9005C0C2B /* DeleteBankCardTask.swift in Sources */,
-				248A89BB201E47C9005C0C2B /* RidesWaypointsPickupTask.swift in Sources */,
-				248A89AE201E47C9005C0C2B /* PaymentCardsTask.swift in Sources */,
-				248A89A2201E47C9005C0C2B /* OtpTask.swift in Sources */,
-				248A89BF201E47C9005C0C2B /* NearbyTaxicabsTask.swift in Sources */,
-				248A89A6201E47C9005C0C2B /* SendFeedbackTask.swift in Sources */,
-				248A89B6201E47C9005C0C2B /* CancelRideTask.swift in Sources */,
-				248A89B7201E47C9005C0C2B /* CreateRideTask.swift in Sources */,
-				248A899E201E47C9005C0C2B /* StringBody.swift in Sources */,
-				248A89AF201E47C9005C0C2B /* CreatePlaceTask.swift in Sources */,
-				248A89AC201E47C9005C0C2B /* CreatePaymentCardTask.swift in Sources */,
-				248A899A201E47C9005C0C2B /* ImageBody.swift in Sources */,
-				248A89BC201E47C9005C0C2B /* RideTask.swift in Sources */,
-				248A89C1201E47C9005C0C2B /* RestApiRoute.swift in Sources */,
-				248A899D201E47C9005C0C2B /* HttpKeys.swift in Sources */,
+				2470ECCD201FE8C100C68143 /* AmalgamaSongTask.swift in Sources */,
+				2470EC97201FE76100C68143 /* MediaType.swift in Sources */,
+				2470EC9D201FE76100C68143 /* ValidatableHTMLModelArrayConverter.swift in Sources */,
+				2470EC96201FE76100C68143 /* DataUrl.swift in Sources */,
+				2470EC9A201FE76100C68143 /* VendorJsonBody.swift in Sources */,
+				2470EC9E201FE76100C68143 /* ValidatableHTMLModelConverter.swift in Sources */,
+				2470EC99201FE76100C68143 /* ParcelableModelBody.swift in Sources */,
+				2470EC9C201FE76100C68143 /* StringBody.swift in Sources */,
+				2470EC98201FE76100C68143 /* ImageBody.swift in Sources */,
+				2470ECBF201FE76100C68143 /* RestApiRoute.swift in Sources */,
+				2470EC9B201FE76100C68143 /* HttpKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		248A8950201E475A005C0C2B /* Debug */ = {
+		2470EC4D201FE6F400C68143 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -602,6 +347,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CUSTOM_PRODUCT_NAME = IrbyCoreNet;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -619,16 +365,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		248A8951201E475A005C0C2B /* Release */ = {
+		2470EC4E201FE6F400C68143 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -659,6 +403,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CUSTOM_PRODUCT_NAME = IrbyCoreNet;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -670,41 +415,36 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		248A8953201E475A005C0C2B /* Debug */ = {
+		2470EC50201FE6F400C68143 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BC7056C4F6BEC790C6B0584 /* Pods-Irby.Core.Net.debug.xcconfig */;
+			baseConfigurationReference = D85249F1F6657C301676CD73 /* Pods-Irby.Core.Net.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89TQ2GF24K;
-				INFOPLIST_FILE = Irby.Core.Net/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Nik.Irby-Core-Net";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(CUSTOM_PRODUCT_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		248A8954201E475A005C0C2B /* Release */ = {
+		2470EC51201FE6F400C68143 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A67C4BCAAC9E9E72712134F3 /* Pods-Irby.Core.Net.release.xcconfig */;
+			baseConfigurationReference = 8B0C393D7090422E0F254777 /* Pods-Irby.Core.Net.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89TQ2GF24K;
-				INFOPLIST_FILE = Irby.Core.Net/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Nik.Irby-Core-Net";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(CUSTOM_PRODUCT_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -713,25 +453,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		248A893B201E475A005C0C2B /* Build configuration list for PBXProject "Irby.Core.Net" */ = {
+		2470EC41201FE6F400C68143 /* Build configuration list for PBXProject "Irby.Core.Net" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248A8950201E475A005C0C2B /* Debug */,
-				248A8951201E475A005C0C2B /* Release */,
+				2470EC4D201FE6F400C68143 /* Debug */,
+				2470EC4E201FE6F400C68143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		248A8952201E475A005C0C2B /* Build configuration list for PBXNativeTarget "Irby.Core.Net" */ = {
+		2470EC4F201FE6F400C68143 /* Build configuration list for PBXNativeTarget "Irby.Core.Net" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248A8953201E475A005C0C2B /* Debug */,
-				248A8954201E475A005C0C2B /* Release */,
+				2470EC50201FE6F400C68143 /* Debug */,
+				2470EC51201FE6F400C68143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 248A8938201E475A005C0C2B /* Project object */;
+	rootObject = 2470EC3E201FE6F400C68143 /* Project object */;
 }

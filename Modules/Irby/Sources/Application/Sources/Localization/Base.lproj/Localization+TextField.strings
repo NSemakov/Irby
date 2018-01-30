@@ -1,0 +1,18 @@
+// ----------------------------------------------------------------------------
+//
+//  Localization+TextField.strings
+//
+//  @author     Denis Kolyasev <KolyasevDA@ekassir.com>
+//  @copyright  Copyright (c) 2016, eKassir Ltd. All rights reserved.
+//  @link       http://www.ekassir.com/
+//
+// ----------------------------------------------------------------------------
+
+// MARK: - Authentication
+
+"PhoneNumber" = "Номер телефона";
+"Otp" = "Код из SMS";
+"Username" = "Имя пользователя";
+"Email" = "Email";
+
+// ----------------------------------------------------------------------------

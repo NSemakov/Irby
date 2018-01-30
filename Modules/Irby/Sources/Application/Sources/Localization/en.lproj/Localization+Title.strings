@@ -1,0 +1,86 @@
+/* No comment provided by engineer. */
+"AboutApp" = "About app";
+
+/* No comment provided by engineer. */
+"AcceptedRideStatus" = "Taxi is on it’s way";
+
+/* No comment provided by engineer. */
+"AddCard" = "Add a card";
+
+/* No comment provided by engineer. */
+"AirportsnRailways" = "Airports and railway stations";
+
+/* No comment provided by engineer. */
+"AppUpdateAlailable" = "Update is available";
+
+/* No comment provided by engineer. */
+"ArrivedRideStatus" = "Taxi has arrived!";
+
+/* No comment provided by engineer. */
+"EnterPromo" = "Type the promo code";
+
+/* No comment provided by engineer. */
+"EvaluateRide" = "Please rate your ride";
+
+/* No comment provided by engineer. */
+"Feedback" = "Please write a review";
+
+/* No comment provided by engineer. */
+"FromAddress" = "Pickup location";
+
+/* No comment provided by engineer. */
+"GeoPointSelector" = "Drop off location";
+
+/* No comment provided by engineer. */
+"InProgressRideStatus" = "Ride in progress";
+
+/* No comment provided by engineer. */
+"Message" = "Comment";
+
+/* No comment provided by engineer. */
+"MessageForDriver" = "Comment for the driver";
+
+/* No comment provided by engineer. */
+"MoneyHaveCome" = "Deposited funds";
+
+/* No comment provided by engineer. */
+"NewRideStatus" = "Selecting a car for you";
+
+/* No comment provided by engineer. */
+"OrderAcceptedNewRideStatus" = "Order successful";
+
+/* No comment provided by engineer. */
+"Payment" = "Payment";
+
+/* No comment provided by engineer. */
+"Places" = "Favorite location";
+
+/* No comment provided by engineer. */
+"Profile" = "Profile";
+
+/* No comment provided by engineer. */
+"Promo" = "Promo codes";
+
+/* No comment provided by engineer. */
+"RideCancelled" = "The ride is cancelled";
+
+/* No comment provided by engineer. */
+"RidesHistory" = "Ride history";
+
+/* No comment provided by engineer. */
+"Settings" = "Settings";
+
+/* No comment provided by engineer. */
+"TaxiOrder" = "Order taxi";
+
+/* No comment provided by engineer. */
+"TimeChoice" = "Arrival time to pickup location";
+
+/* No comment provided by engineer. */
+"AdditionalServices" = "Additional services";
+
+/* No comment provided by engineer. */
+"AdditionalServicesFormat" = "Add. services (+ %@)";
+
+/* No comment provided by engineer. */
+"PushSettings" = "Push settings";

@@ -6,6 +6,11 @@
 //  Copyright © 2016 Vladimir Semakov. All rights reserved.
 //
 
+import IrbyCoreEntities
+import IrbyCoreNet
+import NetworkingApiRest
+import SwiftCommonsExtensions
+import SwiftCommonsLang
 import UIKit
 
 //------------------------------------------------------------------
@@ -16,14 +21,18 @@ class TopController: UIViewController
     
      var songs = [String]()
     
-// Functions
+// MARK: - Methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        self.customTag = Roxie.newTag(for: type(of: self))
+
         if self.songs.isEmpty {
             self.songs = [Commons.SkilletBackFromDead, Commons.TheBeatlesYellowSubmarine]
         }
+
+        translation(forArtist: "Rammstein", title: "Sonne")
     }
  
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
@@ -34,12 +43,54 @@ class TopController: UIViewController
             vc.setTitleString((cell.textLabel?.text)!)
         }
     }
-    
+
+// MARK: - Private Methods
+
+    private func translation(forArtist: String, title: String) {
+
+        weak var weakSelf = self
+
+        // Perform request
+        let entity = BasicRequestEntityBuilder<VoidBody>()
+            .url(EndpointManager.defaultManager.baseURL)
+            //.headers(DefaultHttpHeaders.headers())
+            //.body(VendorJsonBody(body: body))
+            .build()
+
+        let callback = BasicRestApiCallback<VoidBody, [TextElementModel]>()
+        callback.then(
+            onSuccess: { call, entity, callback in
+                callback(call, entity)
+
+
+        },
+            onFailure: { call, error, callback in
+                callback(call, error)
+
+                print(error)
+
+//                // Show alert
+//                AlertViewManager.showErrorAlertView(error)
+        })
+
+        let task = AmalgamaSongTaskBuilder()
+            .tag(self.customTag!)
+            .title(title)
+            .artist(forArtist)
+            //.httpClientConfig(ApplicationHttpClientConfig.SharedConfig)
+            .requestEntity(entity)
+            .build()
+
+        TaskQueue.enqueue(task, callback: callback, callbackOnUiThread: true)
+    }
+
 // MARK: - Variables
             
-   // ...
+    var customTag: String?
     
 }
+
+//------------------------------------------------------------------
 
 extension TopController: UITableViewDelegate
 {
@@ -48,6 +99,7 @@ extension TopController: UITableViewDelegate
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
+
 //------------------------------------------------------------------
 
 extension TopController: UITableViewDataSource
