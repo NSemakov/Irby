@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------------
 //
-//  JsonKeys.swift
+//  UITableViewHeaderFooterView.swift
 //
 //  @author     Denis Kolyasev <KolyasevDA@ekassir.com>
 //  @copyright  Copyright (c) 2016, eKassir Ltd. All rights reserved.
@@ -8,12 +8,17 @@
 //
 // ----------------------------------------------------------------------------
 
-public struct JsonKeys
-{
-// MARK: - Common
+import UIKit
 
-    public static let Original = "original"
-    public static let Translation = "translation"
+// ----------------------------------------------------------------------------
+
+extension UITableViewHeaderFooterView
+{
+// MARK: Properties
+
+    class var defaultReusableIdentifier: String {
+        return self.defaultResourceName
+    }
 
 }
 

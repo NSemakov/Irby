@@ -47,11 +47,12 @@ abstract_target 'Irby.Translation' do
   inject_shared_dependencies_1
   inject_shared_dependencies_2
 
-  pod 'ModernDesign', :git => 'https://github.com/roxiemobile/modern-design.ios.git'
-  pod 'R.swift', '~> 4.0.0'
-  pod 'MBProgressHUD', '~> 1.1.0'
   pod 'Kanna', :git => 'https://github.com/tid-kijyun/Kanna.git', :branch => 'feature/v4.0.0'
-
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'ModernDesign', :git => 'https://github.com/roxiemobile/modern-design.ios.git'
+  pod 'PureLayout', '~> 3.0.2'
+  pod 'R.swift', '~> 4.0.0'
+  
   # Targets
   target 'Irby'
 end

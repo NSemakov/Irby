@@ -43,6 +43,7 @@ PODS:
     - NetworkingApiObjC (= 1.1.2)
     - SwiftCommons/Data (~> 1.1.0)
     - SwiftyJSON (~> 4.0.0)
+  - PureLayout (3.0.2)
   - R.swift (4.0.0):
     - R.swift.Library (~> 4.0.0)
   - R.swift.Library (4.0.0)
@@ -97,6 +98,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 1.1.0)
   - ModernDesign (from `https://github.com/roxiemobile/modern-design.ios.git`)
   - NetworkingApi (from `https://github.com/roxiemobile/networking-api.ios.git`)
+  - PureLayout (~> 3.0.2)
   - R.swift (~> 4.0.0)
   - SwiftCommons (from `https://github.com/roxiemobile/swift-commons.ios.git`)
 
@@ -140,6 +142,7 @@ SPEC CHECKSUMS:
   NetworkingApiHttp: 0f14e04064dc6a7220020b0b48482a844cf45293
   NetworkingApiObjC: 193fca4067ba981c48adf8c07ad32020f968c95f
   NetworkingApiRest: 0fcf239f39ac5591ea19cff04f5cc86b9ee6ee9c
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
   R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
   SwiftCommons: 1af54558b9d8cef30e0aa964ec7e3f05987364b6
@@ -153,6 +156,6 @@ SPEC CHECKSUMS:
   SwiftCommonsObjC: 9ce27218606b397036a873e196f9bb489aa515dd
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: aa3c19a68bde24e3630558307a3daf296cae5958
+PODFILE CHECKSUM: bab430b4e608e7a51d8db51b9bc45514dfd254bf
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.4.0

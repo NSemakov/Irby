@@ -29,8 +29,8 @@ public final class RestApiRoute: NonCreatable
     // GET
     public static func song(_ baseURL: URL, title: String, artist: String) -> HttpRoute
     {
-        if let firstLetter = artist.lowercased().first {
-             return HttpRoute.buildRoute(baseURL, path: "/\(firstLetter)/\(artist.lowercased())/\(title.lowercased()).html")
+        if let firstLetter = artist.first {
+             return HttpRoute.buildRoute(baseURL, path: "/\(firstLetter)/\(artist)/\(title).html")
         }
         else {
             Roxie.fatalError("Can't get first letter of artist \(artist)")

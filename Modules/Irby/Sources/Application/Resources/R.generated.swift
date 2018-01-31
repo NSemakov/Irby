@@ -21,8 +21,17 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.file` struct is generated, and contains static references to 0 files.
+  /// This `R.file` struct is generated, and contains static references to 1 files.
   struct file {
+    /// Resource file `.keep`.
+    static let keep = Rswift.FileResource(bundle: R.hostingBundle, name: ".keep", pathExtension: "")
+    
+    /// `bundle.url(forResource: ".keep", withExtension: "")`
+    static func keep(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.keep
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     fileprivate init() {}
   }
   
@@ -58,8 +67,16 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.nib` struct is generated, and contains static references to 0 nibs.
+  /// This `R.nib` struct is generated, and contains static references to 1 nibs.
   struct nib {
+    /// Nib `UnionStringCell`.
+    static let unionStringCell = _R.nib._UnionStringCell()
+    
+    /// `UINib(name: "UnionStringCell", in: bundle)`
+    static func unionStringCell(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.unionStringCell)
+    }
+    
     fileprivate init() {}
   }
   
@@ -2901,6 +2918,17 @@ struct _R: Rswift.Validatable {
   }
   
   struct nib {
+    struct _UnionStringCell: Rswift.NibResourceType {
+      let bundle = R.hostingBundle
+      let name = "UnionStringCell"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [NSObject : AnyObject]? = nil) -> UnionStringCell? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UnionStringCell
+      }
+      
+      fileprivate init() {}
+    }
+    
     fileprivate init() {}
   }
   

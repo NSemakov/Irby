@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qHP-ym-GCS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qHP-ym-GCS">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,7 +16,6 @@
                 <navigationController id="deO-6p-8q0" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="ZXj-LI-Th3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="erN-K5-k7j">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -40,14 +39,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D53-XK-f8K">
-                                <rect key="frame" x="0.0" y="108" width="414" height="579"/>
+                                <rect key="frame" x="0.0" y="120" width="414" height="567"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="oxk-IF-utW">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oxk-IF-utW" id="0Oh-4t-Imi">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
@@ -61,7 +60,7 @@
                                 </connections>
                             </tableView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="EfT-y7-eyr">
-                                <rect key="frame" x="0.0" y="64" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
@@ -96,14 +95,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QCZ-hD-TEZ">
-                                <rect key="frame" x="0.0" y="108" width="414" height="579"/>
+                                <rect key="frame" x="0.0" y="120" width="414" height="567"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="fQI-SW-QXs">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fQI-SW-QXs" id="Qvx-vd-0aL">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
@@ -117,7 +116,7 @@
                                 </connections>
                             </tableView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="89b-oN-plm">
-                                <rect key="frame" x="0.0" y="64" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
@@ -182,7 +181,6 @@
                 <navigationController id="5ap-vE-cPc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="wLR-fq-TiL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cav-ni-Iad">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -205,38 +203,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Найти текст текущего исполнителя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQa-yJ-VIo">
-                                <rect key="frame" x="65" y="407.66666666666669" width="284" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knG-hL-BkX">
-                                <rect key="frame" x="41.333333333333343" y="327.66666666666669" width="331.33333333333337" height="30"/>
-                                <state key="normal" title="Определить"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aaS-d8-0yi">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <action selector="touchFindOutSong:" destination="oHa-jt-Dt3" eventType="touchUpInside" id="HyB-ey-iWA"/>
+                                    <outlet property="dataSource" destination="oHa-jt-Dt3" id="9du-Sy-xvl"/>
+                                    <outlet property="delegate" destination="oHa-jt-Dt3" id="GLY-Q9-Psf"/>
                                 </connections>
-                            </button>
+                            </tableView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="iQM-7R-8Pn">
                                 <rect key="frame" x="197" y="358" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LQa-yJ-VIo" firstAttribute="centerY" secondItem="4fU-dS-9fX" secondAttribute="centerY" constant="50" id="7tT-qu-i99"/>
-                            <constraint firstItem="LQa-yJ-VIo" firstAttribute="centerX" secondItem="4fU-dS-9fX" secondAttribute="centerX" id="GeX-hp-Yk8"/>
+                            <constraint firstItem="aaS-d8-0yi" firstAttribute="top" secondItem="TOQ-Kd-dLe" secondAttribute="bottom" id="4g5-6H-1p1"/>
+                            <constraint firstItem="OTg-A2-s8H" firstAttribute="top" secondItem="aaS-d8-0yi" secondAttribute="bottom" id="Smx-zL-rPe"/>
                             <constraint firstItem="iQM-7R-8Pn" firstAttribute="centerX" secondItem="4fU-dS-9fX" secondAttribute="centerX" id="WEo-UW-v2G"/>
-                            <constraint firstItem="LQa-yJ-VIo" firstAttribute="top" secondItem="knG-hL-BkX" secondAttribute="bottom" constant="50" id="abS-wD-XJu"/>
-                            <constraint firstItem="knG-hL-BkX" firstAttribute="centerX" secondItem="4fU-dS-9fX" secondAttribute="centerX" id="m2Y-oC-lMk"/>
+                            <constraint firstItem="aaS-d8-0yi" firstAttribute="leading" secondItem="4fU-dS-9fX" secondAttribute="leading" id="bY5-oH-7g2"/>
                             <constraint firstItem="iQM-7R-8Pn" firstAttribute="centerY" secondItem="4fU-dS-9fX" secondAttribute="centerY" id="rYn-0Z-ZqQ"/>
-                            <constraint firstItem="knG-hL-BkX" firstAttribute="width" secondItem="4fU-dS-9fX" secondAttribute="width" multiplier="0.8" id="uLd-tH-RV6"/>
+                            <constraint firstAttribute="trailing" secondItem="aaS-d8-0yi" secondAttribute="trailing" id="ydf-hr-ctu"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Найти" image="second" id="ne5-1M-Tc3"/>
-                    <navigationItem key="navigationItem" title="Найти текст текущей песни" id="7wt-yB-Sx6"/>
+                    <navigationItem key="navigationItem" title="Найти текст текущей песни" id="7wt-yB-Sx6">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="SML-KQ-ebq">
+                            <connections>
+                                <action selector="touchFindOutSong:" destination="oHa-jt-Dt3" id="Kiu-4A-0C7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="activityIndicator" destination="iQM-7R-8Pn" id="72z-mZ-fJD"/>
+                        <outlet property="tableView" destination="aaS-d8-0yi" id="bQo-Jm-dvT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bL7-qd-dCr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -249,7 +248,6 @@
                 <navigationController id="gVQ-Z3-5yl" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="uhz-5l-J3C"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OMd-5q-6mV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

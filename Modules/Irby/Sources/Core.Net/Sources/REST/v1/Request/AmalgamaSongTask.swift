@@ -97,12 +97,16 @@ open class AmalgamaSongTaskBuilder: AbstractTaskBuilder<VoidBody, [TextElementMo
     }
 
     open func title(_ title: String) -> Self {
-        self.options.title = title
+        let array = title.lowercased().components(separatedBy: " ")
+        let newTitle = array.joined(separator: "_")
+        self.options.title = newTitle
         return self
     }
 
     open func artist(_ artist: String) -> Self {
-        self.options.artist = artist
+        let array = artist.lowercased().components(separatedBy: " ")
+        let newArtist = array.joined(separator: "_")
+        self.options.artist = newArtist
         return self
     }
 

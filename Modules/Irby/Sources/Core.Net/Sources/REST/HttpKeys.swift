@@ -18,6 +18,9 @@ extension HttpKeys
 
     public static let LatLng = "latlng"
 
+    public static let Original = "original"
+    public static let Translation = "translation"
+
 }
 
 // ----------------------------------------------------------------------------

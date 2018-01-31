@@ -13,6 +13,7 @@ import NetworkingApiConverters
 import NetworkingApiHttp
 import NetworkingApiRest
 import SwiftCommonsData
+import SwiftCommonsLang
 import SwiftyJSON
 
 // ----------------------------------------------------------------------------
@@ -34,27 +35,34 @@ open class ValidatableHTMLModelArrayConverter<T: ValidatableModel>: AbstractCall
         if let body = entity.body, body.isNotEmpty {
             do {
                 // Try to parse response body as JSON array
+                let doc = try HTML(html: body, encoding: .windowsCP1251)
 
-                let doc = try HTML(html: body, encoding: .utf8)
-                print(doc)
-                
-//                if let jsonArray = try JSON(data: body, options: .allowFragments).object as? JsonArray {
-//
-//                    newBody = try jsonArray.enumerated().map { (index, element) in
-//                        if let jsonObject = element as? JsonObject {
-//                            return try T.init(from: jsonObject)
-//                        }
-//                        else {
-//                            throw JsonSyntaxError(message: "Failed to convert element of array[\(index)] to JSON object.")
-//                        }
-//                    }
-//                }
-//                else {
-//                    throw JsonSyntaxError(message: "Failed to convert response body to JSON array.")
-//                }
+                var jsonArray = [JsonObject]()
+                for link in doc.xpath("//div[@class='string_container']") {
+                    if let text = link.text {
+                       let originalAndTranslation = text.components(separatedBy: "\r")
+                        if let originalSubstring = originalAndTranslation.first,
+                           let translateSubstring = originalAndTranslation.last {
+
+                           let original = String(originalSubstring).trim()
+                           let translate = String(translateSubstring).trim()
+
+                            jsonArray.append([HttpKeys.Original : original,
+                                           HttpKeys.Translation : translate])
+                        }
+                    }
+                }
+//                print(doc.body!)
+                    newBody = try jsonArray.enumerated().map { (index, element) in
+                        if let jsonObject = element as? JsonObject {
+                            return try T.init(from: jsonObject)
+                        }
+                        else {
+                            throw JsonSyntaxError(message: "Failed to convert element of array[\(index)] to JSON object.")
+                        }
+                    }
             }
             catch {
-                print(error)
                 let a = 2
 //                throw ConversionError(entity: entity, cause: error)
             }
