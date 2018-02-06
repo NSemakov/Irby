@@ -34,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2458A953202A47C500B5F4F4 /* .keep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
+		2458A954202A47CB00B5F4F4 /* .keep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
 		2470EC46201FE6F400C68143 /* libIrbyCoreNet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIrbyCoreNet.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2470EC57201FE76100C68143 /* DataUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUrl.swift; sourceTree = "<group>"; };
 		2470EC59201FE76100C68143 /* MediaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		2470EC53201FE76100C68143 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2458A954202A47CB00B5F4F4 /* .keep */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 		2470EC54201FE76100C68143 /* Dependancies */ = {
 			isa = PBXGroup;
 			children = (
+				2458A953202A47C500B5F4F4 /* .keep */,
 			);
 			path = Dependancies;
 			sourceTree = "<group>";

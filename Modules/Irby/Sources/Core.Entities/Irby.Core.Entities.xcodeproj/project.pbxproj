@@ -25,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2458A950202A472700B5F4F4 /* .keep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
+		2458A952202A472700B5F4F4 /* .keep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
 		2470EC31201FE68500C68143 /* libIrbyCoreEntities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIrbyCoreEntities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2470ECC2201FE77000C68143 /* JsonKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonKeys.swift; sourceTree = "<group>"; };
 		2470ECC4201FE77000C68143 /* TextElementModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextElementModel.swift; sourceTree = "<group>"; };
@@ -45,11 +47,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2458A94F202A472700B5F4F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2458A950202A472700B5F4F4 /* .keep */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2458A951202A472700B5F4F4 /* Dependancies */ = {
+			isa = PBXGroup;
+			children = (
+				2458A952202A472700B5F4F4 /* .keep */,
+			);
+			path = Dependancies;
+			sourceTree = "<group>";
+		};
 		2470EC28201FE68500C68143 = {
 			isa = PBXGroup;
 			children = (
-				2470ECC5201FE77000C68143 /* Dependancies */,
-				2470ECC0201FE77000C68143 /* Resources */,
+				2458A951202A472700B5F4F4 /* Dependancies */,
+				2458A94F202A472700B5F4F4 /* Resources */,
 				2470ECC1201FE77000C68143 /* Sources */,
 				2470EC32201FE68500C68143 /* Products */,
 				CDFE7A3486DB7F09F2FC058A /* Pods */,
@@ -63,13 +81,6 @@
 				2470EC31201FE68500C68143 /* libIrbyCoreEntities.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2470ECC0201FE77000C68143 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		2470ECC1201FE77000C68143 /* Sources */ = {
@@ -87,13 +98,6 @@
 				2470ECC4201FE77000C68143 /* TextElementModel.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		2470ECC5201FE77000C68143 /* Dependancies */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Dependancies;
 			sourceTree = "<group>";
 		};
 		720B39CC4BFCE3DA79F179AF /* Frameworks */ = {
